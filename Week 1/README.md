@@ -2,5 +2,5 @@
 
 1. [HelloWorld.java](HelloWorld.java)
 2. [PrimitiveDataTypes.java](PrimitiveDataTypes.java)
-3. [ArithmeticOperations.java](ArithmeticOperations.java)
+3. [ArithmeticOperations.java](Week 1/ArithmeticOperations.Java)
 
