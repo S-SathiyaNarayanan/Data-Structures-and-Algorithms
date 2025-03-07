@@ -9,6 +9,9 @@ public class PrimitiveDataTypes{
         double myDoubleValue = 19.99;
         char myCharValue = 'A';
         boolean myBooleanValue = true;
+        // "L" is required when the value exceeds the int range 
+        // "d" is optional for double literals but can enhance code readability
+        // Always use "f" for float to avoid implicit double conversion errors
 
         // Print all primitive values
         System.out.println("Byte value: " + myByteValue);
