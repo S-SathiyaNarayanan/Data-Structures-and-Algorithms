@@ -1,5 +1,5 @@
-public class ArithmeticOperations{
-    public static void main(String[] args){
+public class ArithmeticOperations {
+    public static void main(String[] args) {
         // Declare two numbers
         int num1 = 20, num2 = 13;
 
@@ -17,9 +17,9 @@ public class ArithmeticOperations{
 
         // Increment and Decrement operations
         int prefixIncrement = ++num1;  // num1 is incremented first, then assigned
-        int suffixIncrement = num2++;  // num2 is assigned first, then incremented
+        int postfixIncrement = num2++;  // num2 is assigned first, then incremented
         int prefixDecrement = --num1;  // num1 is decremented first, then assigned
-        int suffixDecrement = num2--;  // num2 is assigned first, then decremented
+        int postfixDecrement = num2--;  // num2 is assigned first, then decremented
 
         // Display results
         System.out.println("\nArithmetic Operations:");
@@ -31,9 +31,9 @@ public class ArithmeticOperations{
 
         System.out.println("\nIncrement and Decrement Operations:");
         System.out.println("Prefix Increment (++num1): " + prefixIncrement);
-        System.out.println("Suffix Increment (num2++): " + suffixIncrement);
+        System.out.println("Postfix Increment (num2++): " + postfixIncrement);
         System.out.println("Prefix Decrement (--num1): " + prefixDecrement);
-        System.out.println("Suffix Decrement (num2--): " + suffixDecrement);
+        System.out.println("Postfix Decrement (num2--): " + postfixDecrement);
 
         // Print final values of num1 and num2
         System.out.println("\nFinal values after all operations:");
