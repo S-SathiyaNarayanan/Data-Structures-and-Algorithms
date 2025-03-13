@@ -14,6 +14,8 @@ public class ArithmeticOperations {
         int multiplication = num1 * num2;
         double division = (double) num1 / num2;  // Casting num1 to double for precision
         int modulus = num1 % num2;   // No casting needed for modulus
+        // If you want accurate division with decimals, you must cast at least one operand to double. Otherwise, integer division will truncate the decimals part
+        // Unlike division, you usually don’t need to type cast for % because Java handles it automatically
 
         // Increment and Decrement operations
         int prefixIncrement = ++num1;  // num1 is incremented first, then assigned
