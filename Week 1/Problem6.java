@@ -13,7 +13,7 @@ Expected Output:
 800
 900
 1000
-Explanation: Input is 100, multiples of 100 is 100*1, 100*2, 100*3 and so on till 1000.
+Explanation :- Input is 100, multiples of 100 is 100*1, 100*2, 100*3 and so on till 1000.
 *************************************************************************************************************/
 
 import java.util.Scanner;
