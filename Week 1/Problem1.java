@@ -1,3 +1,12 @@
+/*************************************************************************************************************
+Write a program that takes an integer, then a string, then a char from the user and prints them in the screen.
+Input:  2 Name y
+Expected Output:
+2
+Name
+y
+*************************************************************************************************************/
+
 import java.util.Scanner;
 
 public class Problem1 {
