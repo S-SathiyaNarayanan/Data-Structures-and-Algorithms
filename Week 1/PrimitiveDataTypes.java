@@ -1,5 +1,5 @@
-public class PrimitiveDataTypes{
-    public static void main(String[] args){
+public class PrimitiveDataTypes {
+    public static void main(String[] args) {
         // Declare and initialize primitive variables 
         byte myByteValue = 100;
         short myShortValue = 5000;
