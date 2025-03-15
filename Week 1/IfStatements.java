@@ -19,11 +19,7 @@ public class IfStatements {
 
         // 1. Simple if statement
         if (number > 0) {
-            System.out.println(number + " is a positive number");
-        } else if (number < 0) {
-            System.out.println(number + " is a negative number");
-        } else {
-            System.out.println("The number is zero");
+            System.out.println(number + "Wow you really entered a positive number");
         }
 
         // 2. if-else statement
