@@ -4,16 +4,12 @@ public class IfStatements {
     public static void main(String[] args) {
       
         Scanner sc = new Scanner(System.in);
-
-        // User inputs
         System.out.println("Enter a number to check positivity:");
         int number = sc.nextInt();
         System.out.println("Enter a number to check even/odd:");
         int checkEvenOdd = sc.nextInt();
         System.out.println("Enter your age:");
         int age = sc.nextInt();
-        System.out.println("Enter the Secret Code:");
-        int secretcode = sc.nextInt();
 
         System.out.println("\n==== Results ====\n");
 
@@ -51,6 +47,8 @@ public class IfStatements {
         }
 
         // 5. Ternary Operator (Short-hand If...Else)
+        System.out.println("Enter the Secret Code:");
+        int secretcode = sc.nextInt();
         String isCorrectCode = (secretcode == 007) ? "Correct Password 🍀" : "Wrong Password! 🎭";
         System.out.println(isCorrectCode);
 
