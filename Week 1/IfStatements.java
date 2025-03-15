@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class IfStatements {
     public static void main(String[] args) {
       
         Scanner sc = new Scanner(System.in);
@@ -15,7 +15,7 @@ public class Main {
 
         // 1. Simple if statement
         if (number > 0) {
-            System.out.println(number + "Wow you really entered a positive number");
+            System.out.println("Wow you really entered a positive number");
         }
 
         // 2. if-else statement
