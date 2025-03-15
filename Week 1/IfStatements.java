@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class IfStatements {
+public class Main {
     public static void main(String[] args) {
       
         Scanner sc = new Scanner(System.in);
@@ -47,7 +47,7 @@ public class IfStatements {
         }
 
         // 5. Ternary Operator (Short-hand If...Else)
-        System.out.println("Enter the Secret Code:");
+        System.out.println("\nEnter the Secret Code:");
         int secretcode = sc.nextInt();
         String isCorrectCode = (secretcode == 007) ? "Correct Password 🍀" : "Wrong Password! 🎭";
         System.out.println(isCorrectCode);
