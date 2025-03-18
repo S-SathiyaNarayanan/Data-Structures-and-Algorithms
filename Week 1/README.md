@@ -1,55 +1,103 @@
-## Java Week 1 Project Files
-
-1. [Hello World](HelloWorld.java)
-2. [Primitive Data Types](PrimitiveDataTypes.java)
-3. [Arithmetic Operations](ArithmeticOperations.Java)
-
-
 # Week 1: Java Fundamentals
 
-This folder contains the Week 1 projects for the Data Structures and Algorithms course. The focus of this week is on the basics of Java programming, including introductory concepts, control structures, loops, and simple problem-solving.
+Welcome to **Week 1** of the **Data Structures and Algorithms** course. This week, we'll focus on **Java fundamentals**, including basic syntax, control structures, loops, and essential problem-solving skills.
 
-## Overview
+---
 
-In Week 1, you will find examples and exercises covering:
-- **Hello World**: A simple program to print "Hello, World!".
-- **Primitive Data Types**: Demonstrations of Java's fundamental data types.
-- **Arithmetic Operations**: Examples showcasing basic mathematical operations.
+## Learning Path for Beginners
 
-Additional programs in this folder illustrate:
-- Basic input and output operations.
-- Different types of loops (for, while, do-while, and nested loops).
-- Conditional statements like if-else and switch-case.
-- Practice problems to reinforce the concepts.
+### 1. Introduction to Java
+Learn the fundamentals of Java programming with these exercises:
+- **[HelloWorld.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/HelloWorld.java)**  
+  Print a simple message to the console.
+- **[PrimitiveDataTypes.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/PrimitiveDataTypes.java)**  
+  Understand Java's fundamental data types.
+- **[BasicInputOutput.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/BasicInputOutput.java)**  
+  Learn the basics of reading input and writing output.
 
-## Folder Structure
+---
 
-- **Main Concepts:**
-  - `HelloWorld.java` – Prints "Hello, World!" to the console.
-  - `PrimitiveDataTypes.java` – Demonstrates usage of primitive data types.
-  - `ArithmeticOperations.java` – Contains examples of arithmetic operations.
+### 2. Basic Operations
+- **[ArithmeticOperations.Java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/ArithmeticOperations.Java)**  
+  Explore arithmetic operations in Java.
 
-- **Control Structures and Loops:**
-  - `BasicInputOutput.java` – Introduces basic input and output.
-  - `DoWhileLoop.java` – Example of a do-while loop.
-  - `ForLoop.java` – Example of a for loop.
-  - `IfStatements.java` – Shows usage of if-else statements.
-  - `NestedForLoop.java` – Demonstrates nested loops.
-  - `SwitchStatement.java` – Example of a switch-case statement.
-  - `WhileLoop.java` – Example of a while loop.
+---
 
-- **Practice Problems:**
-  - `Problem1.java` to `Problem7.java` – Each file contains exercises or problems designed to reinforce the week's lessons.
+### 3. Control Structures
+- **[IfStatements.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/IfStatements.java)**  
+  Implement conditional logic with if-else statements.
+- **[SwitchStatement.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/SwitchStatement.java)**  
+  Learn how switch-case simplifies multiple conditional checks.
+
+---
+
+### 4. Loops
+- **[ForLoop.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/ForLoop.java)**  
+  Work with for loops to iterate efficiently.
+- **[NestedForLoop.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/NestedForLoop.java)**  
+  Understand how nested loops handle multi-dimensional data.
+- **[WhileLoop.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/WhileLoop.java)**  
+  Use while loops for repeated tasks based on conditions.
+- **[DoWhileLoop.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/DoWhileLoop.java)**  
+  Understand do-while loops, which always execute at least once.
+
+---
+
+## Practice Problems
+
+Sharpen your skills with these hands-on exercises:
+
+### Problem 1: Input & Output
+- **[Problem1.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/Problem1.java)**  
+  **Task:** Read an integer, a string, and a character, then print them.
+
+### Problem 2: Triangle Formation
+- **[Problem2.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/Problem2.java)**  
+  **Task:** Check if given angles can form a triangle (sum = 180°).
+
+### Problem 3: Grading System
+- **[Problem3.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/Problem3.java)**  
+  **Task:** Determine grades based on student marks.
+
+### Problem 4: Switch-Case Challenge
+- **[Problem4.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/Problem4.java)**  
+  **Task:** Implement a switch-case program for size descriptions.
+
+### Problem 5: Print Repeatedly
+- **[Problem5.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/Problem5.java)**  
+  **Task:** Print a value `x`, `y` times.
+
+### Problem 6: Multiples of a Number
+- **[Problem6.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/Problem6.java)**  
+  **Task:** Print multiples of `x` up to 1000.
+
+### Problem 7: Full Name Repetition
+- **[Problem7.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/Problem7.java)**  
+  **Task:** Print full name `n` times.
+
+---
 
 ## Getting Started
 
 ### Prerequisites
-- **Java Development Kit (JDK)**: Ensure you have Java installed. The code is compatible with JDK 8 and above.
-- **Development Environment**: Use any IDE or text editor (e.g., IntelliJ IDEA, Eclipse, or Visual Studio Code).
+Ensure you have the following installed:
+- **Java Development Kit (JDK)** (8 or above recommended)
+- **Any Java IDE or text editor** (IntelliJ IDEA, Eclipse, VS Code, etc.)
 
-### How to Compile and Run
+### How to Compile and Run Java Code
 
-1. **Compile a Java File:**
-   Open a terminal/command prompt, navigate to this folder, and run:
+1. Open a terminal/command prompt.  
+2. Navigate to the folder where your Java file is located.  
+3. Compile the Java file:  
    ```bash
    javac FileName.java
+   ```
+4. Run the compiled Java program:  
+   ```bash
+   java FileName
+   ```
+
+---
+
+Happy Coding. Let’s build a strong Java foundation together.
+
