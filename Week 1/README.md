@@ -2,6 +2,7 @@
 
 In Week 1 of the Data Structures and Algorithms course, you’ll dive into the core basics of Java programming. You'll learn about variables, data types, and operators. The focus will be on control structures like loops and conditionals. Simple problem-solving techniques will be introduced to strengthen your understanding. This week lays the groundwork for future concepts.
 
+
 ## Learning Path for Beginners
 
 ### 1. Introduction to Java
