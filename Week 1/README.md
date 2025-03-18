@@ -2,7 +2,6 @@
 
 Welcome to **Week 1** of the **Data Structures and Algorithms** course. This week, we'll focus on **Java fundamentals**, including basic syntax, control structures, loops, and essential problem-solving skills.
 
----
 
 ## Learning Path for Beginners
 
