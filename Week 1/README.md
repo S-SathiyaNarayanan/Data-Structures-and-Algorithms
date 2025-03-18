@@ -6,7 +6,7 @@ Welcome to **Week 1** of the **Data Structures and Algorithms** course. This wee
 ## Learning Path for Beginners
 
 ### 1. Introduction to Java
-Learn the fundamentals of Java programming with these exercises:
+
 - **[HelloWorld.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/HelloWorld.java)**  
   Learn how to print a simple message to the console.
 - **[PrimitiveDataTypes.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/PrimitiveDataTypes.java)**  
