@@ -18,7 +18,7 @@ Welcome to **Week 1** of the **Data Structures and Algorithms** course. This wee
 
 ### 2. Basic Operations
 - **[ArithmeticOperations.Java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/ArithmeticOperations.Java)**  
-  Explore arithmetic operations in Java.
+  Explore arithmetic operations and see how Java handles mathematical computations.
 
 ---
 
