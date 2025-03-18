@@ -25,6 +25,8 @@ This folder contains Week 1 of the Data Structures and Algorithms course. The fo
 ### 4. Loops
 - **[ForLoop.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/ForLoop.java)**  
   Begin with the for loop to iterate a set number of times.
+- **[NestedForLoop.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/NestedForLoop.java)**  
+  See how loops can be nested to work with multi-dimensional data or complex logic.
 - **[WhileLoop.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/WhileLoop.java)**  
   Learn the while loop for repeating tasks based on a condition.
 - **[DoWhileLoop.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/DoWhileLoop.java)**  
