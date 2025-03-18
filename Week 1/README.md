@@ -98,5 +98,3 @@ Ensure you have the following installed:
 
 ---
 
-Happy Coding. Let’s build a strong Java foundation together.
-
