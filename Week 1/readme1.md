@@ -1,6 +1,6 @@
 # Week 1: Java Fundamentals
 
-This folder contains Week 1 projects for the Data Structures and Algorithms course. The focus is on the basics of Java programming—including introductory concepts, control structures, loops, and simple problem-solving. The files are organized in a sequence that gradually builds your knowledge from basic syntax to more advanced topics.
+This folder contains Week 1 projects for the Data Structures and Algorithms course. The focus is on the basics of Java programming—including introductory concepts, control structures, loops, and simple problem-solving. 
 
 ## Learning Path for Beginners
 
