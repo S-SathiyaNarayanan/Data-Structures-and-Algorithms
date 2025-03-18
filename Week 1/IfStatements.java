@@ -2,7 +2,10 @@ import java.util.Scanner;
 
 public class IfStatements {
     public static void main(String[] args) {
-      
+
+        // Use an if statement when you need to check conditions with comparisons (<, >, <=, >=, !=).
+        // when you have multiple variables, boolean values, or complex logic conditions (&&, ||, method calls).
+        
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number to check positivity:");
         int number = sc.nextInt();
