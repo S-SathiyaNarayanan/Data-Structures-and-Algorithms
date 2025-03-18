@@ -44,7 +44,7 @@ Learn the fundamentals of Java programming with these exercises:
 
 ## Practice Problems
 
-Sharpen your skills with these hands-on exercises:
+Work on these exercises to reinforce the concepts:
 
 ### Problem 1: Input & Output
 - **[Problem1.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/Problem1.java)**  
