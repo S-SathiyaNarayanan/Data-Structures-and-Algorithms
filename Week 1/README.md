@@ -1,6 +1,6 @@
 # Week 1: Java Fundamentals
 
-Welcome to **Week 1** of the **Data Structures and Algorithms** course. This week, we'll focus on **Java fundamentals**, including basic syntax, control structures, loops, and essential problem-solving skills.
+In Week 1 of the Data Structures and Algorithms course, you’ll dive into the core basics of Java programming. You'll learn about variables, data types, and operators. The focus will be on control structures like loops and conditionals. Simple problem-solving techniques will be introduced to strengthen your understanding. This week lays the groundwork for future concepts.
 
 
 ## Learning Path for Beginners
