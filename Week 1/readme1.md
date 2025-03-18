@@ -31,8 +31,6 @@ This folder contains Week 1 of the Data Structures and Algorithms course. The fo
   Learn the while loop for repeating tasks based on a condition.
 - **[DoWhileLoop.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/DoWhileLoop.java)**  
   Discover the do-while loop, which guarantees at least one execution.
-- **[NestedForLoop.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/NestedForLoop.java)**  
-  See how loops can be nested to work with multi-dimensional data or complex logic.
 
 ### 5. Practice Problems
 Work on these exercises to reinforce the concepts:
