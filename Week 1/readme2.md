@@ -34,7 +34,7 @@ This folder contains Week 1 of the Data Structures and Algorithms course. The fo
 
 ## Practice Problems
 
-Below are several practice problems with direct file links and their corresponding questions.
+Work on these exercises to reinforce the concepts:
 
 ### Problem 1
 - **File:** [Problem1.java](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%201/Problem1.java)  
