@@ -5,7 +5,7 @@ Pattern 3
 1 2 3 
 1 2 3 4 
 *************************************************************************************************************/
-public class Main {
+public class Pattern3 {
     public static void main(String[] args) {
         int N = 4; // Number of rows in the pattern 
         // Outer loop to control the number of rows
