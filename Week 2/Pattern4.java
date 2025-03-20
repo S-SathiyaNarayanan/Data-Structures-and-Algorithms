@@ -27,7 +27,8 @@ public class Patern4 {
     public static void main(String[] args) {
         int N = 3;
         for (int i = 1; i <= N; i++) {
-            System.out.print("*".repeat(i) + " ");
+            System.out.print("*".repeat(i) + " ");        
+            // .repeat(count) method only works with Strings. You cannot use it directly on numbers, characters, or other data types.
         }
     }
 }
