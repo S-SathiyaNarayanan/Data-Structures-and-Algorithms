@@ -11,7 +11,7 @@ public class Pattern6 {
         // Outer loop controls the number of rows
         for (int i = 1; i <= N; i++) {
             // The number of elements in each row decreases as i increases
-            // Inner loop prints numbers from 1 to (N - i + 1)
+            // Inner loop prints star from 1 to (N - i + 1)
             for (int j = 1; j <= (N - i + 1); j++) {
                 System.out.print("* ");  // Print a star with a space
             }
