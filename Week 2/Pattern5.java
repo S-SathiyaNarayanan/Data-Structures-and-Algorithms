@@ -1,6 +1,13 @@
+/*************************************************************************************************************
+Pattern 5
+1 2 3 4  
+1 2 3 
+1 2  
+1  
+*************************************************************************************************************/
 public class Pattern5 {
     public static void main(String[] args) {
-        int N = 5;    // Define the number of rows for the pattern
+        int N = 4;    // Define the number of rows for the pattern
         // Outer loop controls the number of rows
         for (int i = 1; i <= N; i++) {
             // The number of elements in each row decreases as i increases
