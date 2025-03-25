@@ -1,5 +1,5 @@
 /*************************************************************************************************************
-🪙GeeksforGeeks
+🪙GeeksforGeeks - Pattern Printing
 Given a number N. The task is to print a series of asterisk(*) from 1 till N terms with increasing order and 
 difference being 1.
 Input:
