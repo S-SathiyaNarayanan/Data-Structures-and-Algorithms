@@ -1,11 +1,15 @@
-Mathematical concepts
+Mathematical concepts:-
 1.palindrome number
 2.Reverse the number
 3.factorial of the number
 4.prime number
 
-
+DSA:-
 What is a data structure ?
 why we create our own data structure ?
 what is algorithms ?
-array is pre defined data structure
+
+Array:-
+what is array
+array is a pre defined data structure
+rules of storing values- contiguos memory blocks is allocated
