@@ -10,7 +10,7 @@ Note: You don't need to move to the next line after printing all elements of the
 class Solution {
     // Just print the space seperated array elements
     void printArray(int arr[]) {
-        //   code here
+        // code here
         int n=arr.length;
         for(int i=0;i<n;i++){
             System.out.print(arr[i]+" ");
