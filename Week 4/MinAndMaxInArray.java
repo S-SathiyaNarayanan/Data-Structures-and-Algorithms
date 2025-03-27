@@ -34,7 +34,7 @@ class Solution {
         for (int i = 1; i < n; i++) {
             if (arr[i] > max) {
                 max = arr[i];
-            } else if (arr[i] < min) {  // Using else if reduces unnecessary comparisons
+            } else if (arr[i] < min) {  // Using else if reduces unnecessary loops
                 min = arr[i];
             }
         }        
