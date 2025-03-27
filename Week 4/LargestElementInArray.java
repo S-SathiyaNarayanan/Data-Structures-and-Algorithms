@@ -10,7 +10,8 @@ class Solution {
     public static int largest(int[] arr) {
         // code here
         int n=arr.length;
-        int Max=0;
+        // Initializing MAX with arr[0] ensures the correct maximum is found, even if all numbers are negative.
+        int Max=arr[0];
         for(int i=0;i<n;i++){
             if(arr[i]>Max){
                 Max=arr[i];
