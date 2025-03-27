@@ -1,6 +1,7 @@
 1. SumOfArrayElements.java
-2. CountOddAndEven.java
-3. LargestElementInArray.java
-4. SumOfArrayElements.java
-5. MinAndMaxInArray.java
-6. AlternatesInAnArray.java
+2. IncrementBy5.java
+3. CountOddAndEven.java
+4. LargestElementInArray.java
+5. SumOfArrayElements.java
+6. MinAndMaxInArray.java
+7. AlternatesInAnArray.java
