@@ -1,4 +1,4 @@
-public class Main {
+public class IncrementBy5 {
     public static void main(String[] args) {
       
         // Initialize an integer array with predefined values
