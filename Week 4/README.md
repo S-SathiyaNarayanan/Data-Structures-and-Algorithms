@@ -2,3 +2,4 @@
 2. CountAndAddValues.java
 3. LargestElementInArray.java
 4. SumOfArrayElements.java
+5. MinAndMaxInArray.java
