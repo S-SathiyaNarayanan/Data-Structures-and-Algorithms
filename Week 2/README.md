@@ -29,5 +29,5 @@ How to approach a pattern:-
 2. Identify for given row number;
   -->how many colums are there 
   -->types of elements * in column 
-3)What do you need to print ?
+3. What do you need to print ?
 
