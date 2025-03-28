@@ -4,9 +4,11 @@
 3. CountOddAndEven.java
 4. LargestElementInArray.java
 5. SecondLargestElementInArray.java
-6. MinAndMaxInArray.java
-7. AlternatesInAnArray.java
-8. 
+6. FirstAndSecondSmallests.java
+
+7. MinAndMaxInArray.java
+8. AlternatesInAnArray.java
+9. 
 
 ## Recursion
 
