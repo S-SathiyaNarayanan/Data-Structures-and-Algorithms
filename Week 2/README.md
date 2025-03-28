@@ -1,12 +1,13 @@
 ## Java OOPS Basics
+ClassAndObjects.java
 class ?
 objects ?
 properties-attributes ?
 Methods-function- return?
 parameters vs arguments ?
-constructor ?
+constructors ?
 
-## Competitive Programming Terminoloies
+## Competitive Programming Terminologies
 Test Case: Input-output examples to check if your code works for all situations (like empty inputs or huge data).
 Constraints: Rules (like input size limits) that tell you how to design your code (e.g., make it fast or save memory).
 
@@ -24,6 +25,7 @@ RE: Runtime Error – Your program crashed or encountered an error during execut
 CE: Compile Error – Your code did not compile due to syntax or other compilation issues.
 
 ## Patterns
+
 How to approach a pattern:-
 1. no of rows = no of times outer lop will run
 2. Identify for given row number;
@@ -47,3 +49,6 @@ How to approach a pattern:-
 13. Pattern13.java
 14. Pattern14.java
 15. ListOfPatternsToTry.md
+
+## Basic Mathematical concepts 
+
