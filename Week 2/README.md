@@ -56,3 +56,5 @@ How to approach a pattern:-
 3. FindFirstDigit.java
 4. CountDigits.java
 5. FindOddAndEvenDigitsInNumber.java
+6. CornerDigitsSum.java
+7. PrintTheKthDigit.java
