@@ -3,10 +3,10 @@
 2. IncrementBy5.java
 3. CountOddAndEven.java
 4. LargestElementInArray.java
-5. SumOfArrayElements.java
+5. SecondLargestElementInArray.java
 6. MinAndMaxInArray.java
 7. AlternatesInAnArray.java
-
+8. 
 
 ## Recursion
 
