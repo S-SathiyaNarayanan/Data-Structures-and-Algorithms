@@ -9,7 +9,7 @@ public class FindFirstDigit {
 
         // Extract first digit
         while (FirstDigit >= 10) {
-            FirstDigit /= 10;
+            FirstDigit = FirstDigit / 10;
         }
 
         System.out.println("The first digit is " + FirstDigit);
