@@ -31,3 +31,19 @@ How to approach a pattern:-
   -->types of elements * in column 
 3. What do you need to print ?
 
+## Pattern Problems
+1. Pattern1.java
+2. Pattern2.java
+3. Pattern3.java
+4. Pattern4.java
+5. Pattern5.java
+6. Pattern6.java
+7. Pattern7.java
+8. Pattern8.java
+9. Pattern9.java
+10. Pattern10.java
+11. Pattern11.java
+12. Pattern12.java
+13. Pattern13.java
+14. Pattern14.java
+15. ListOfPatternsToTry.md
