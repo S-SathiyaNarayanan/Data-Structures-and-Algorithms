@@ -15,20 +15,25 @@ Output:
 *
 *************************************************************************************************************/
 
-public class Pattern9{
-    public static void main(String[] args){
-        int n=5;
-        for(int i=1;i<=n;i++){
-            for(int j=1;j<=i;j++){
+public class Pattern9 {
+    public static void main(String[] args) {
+        int n = 5; // Number of rows for the top half of the pattern
+
+        // Loop to print the top half of the pattern (increasing triangle)
+        for (int i = 1; i <= n; i++) {    // Controls the number of rows
+            for (int j = 1; j <= i; j++) {    // Prints '*' in each row
                 System.out.print("* ");
             }
-            System.out.println();
+            System.out.println(); // Moves to the next line after printing a row
         }
-        for(int i=n-1;i>=1;i--){
-            for(int j=i;j>=1;j--){
+
+        // Loop to print the bottom half of the pattern (decreasing triangle)
+        for (int i = n - 1; i >= 1; i--) { // Starts from n-1 to avoid repeating the middle row
+            for (int j = i; j >= 1; j--) { // Prints '*' in each row
                 System.out.print("* ");
             }
-            System.out.println();
+            System.out.println(); // Moves to the next line after printing a row
         }
     }
 }
+
