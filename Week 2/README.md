@@ -51,4 +51,8 @@ How to approach a pattern:-
 15. ListOfPatternsToTry.md
 
 ## Basic Mathematical concepts 
-
+1. FindLastDigit.java
+2. TraverseThroughLastDigit.java
+3. FindFirstDigit.java
+4. CountDigits.java
+5. FindOddAndEvenDigitsInNumber.java
