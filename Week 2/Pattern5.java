@@ -23,7 +23,7 @@ public class Pattern5 {
 }
 
 // Solution 2
-public class Main{
+public class Pattern5{
     public static void main(String[] args){
         int n=4;
         for(int i=n;i>=1;i--){
