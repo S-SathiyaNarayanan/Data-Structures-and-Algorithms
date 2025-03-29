@@ -8,6 +8,7 @@ Expected output:
 2 1
 1
 *************************************************************************************************************/
+
 public class Pattern7 {
     public static void main(String[] args) {
         int n = 4;  // Define the number of rows for the pattern
