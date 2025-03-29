@@ -7,6 +7,7 @@ public class TraverseThroughLastDigit {
         int N = sc.nextInt();
         
         System.out.println("Traversing through Last Digits");
+        
         while (N > 0) {
             int LastDigit = N % 10;        // Extract last digit
             System.out.println(LastDigit);
