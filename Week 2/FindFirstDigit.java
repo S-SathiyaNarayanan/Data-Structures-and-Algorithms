@@ -1,36 +1,16 @@
-// Solution 1
 import java.util.Scanner;
 public class FindFirstDigit {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number: ");
         int N = sc.nextInt();
-        int FirstDigit = 0;
 
-        // Loop to extract the first digit
-        while (N > 0) {
-            FirstDigit = N % 10; // Extract the last digit in each iteration
-            N = N / 10;          // Remove the last digit
-        }
+        int FirstDigit = N;       // Initialize FirstDigit with the given number
+        int LastDigit = N % 10;   // Extract the last digit using modulo operation
 
-        // Display the first digit
-        System.out.println("The first digit is " + FirstDigit);
-    }
-}
-
-// Solution 2
-import java.util.Scanner;
-public class FindFirstDigit {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the number: ");
-        int N = sc.nextInt();
-        int FirstDigit = N;
-        int LastDigit = N % 10;
-
-        // Extract first digit
-        while (FirstDigit >= 10) {
-            FirstDigit = FirstDigit / 10;
+        // Loop to extract the first digit by continuously dividing by 10
+        while (FirstDigit >= 10) {          // Loop runs until only one digit remains
+            FirstDigit = FirstDigit / 10;   // Remove the last digit in each iteration
         }
 
         System.out.println("The first digit is " + FirstDigit);
