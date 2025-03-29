@@ -9,12 +9,12 @@ In Week 2, we delve into the foundational concepts of Object-Oriented Programmin
 Object-Oriented Programming (OOP) is a paradigm that organizes software design around data, or objects, rather than functions and logic. Key concepts include:
 
 - **Classes and Objects**: A *class* serves as a blueprint for creating objects (instances), encapsulating data for the object and methods to manipulate that data.
-- **Properties (Attributes)**: These are variables that hold the state or characteristics of an object.
+- **Properties (Attributes)**: Variables that hold the state or characteristics of an object.
 - **Methods (Functions)**: Functions defined within a class that describe the behaviors or actions an object can perform.
 - **Parameters vs. Arguments**: *Parameters* are variables listed in a method's definition, while *arguments* are the actual values passed to these parameters when the method is called.
 - **Constructors**: Special methods invoked at the time of object creation to initialize objects.
 
-*Refer to* `ClassAndObjects.java` *for practical implementations of these concepts.*
+*Refer to* [`ClassAndObjects.java`](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%202/ClassAndObjects.java) *for practical implementations of these concepts.*
 
 *Additional Resources*:
 - [Object-Oriented Programming Concepts in Java](https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/)
@@ -53,8 +53,22 @@ Approaching pattern problems involves:
 3. **Defining the Print Logic**: Establishing what needs to be printed and in what sequence.
 
 *Pattern Problems to Practice*:
-- `Pattern1.java` to `Pattern14.java`
-- `ListOfPatternsToTry.md` for additional exercises.
+- [`Pattern1.java`](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%202/Pattern1.java)
+- [`Pattern2.java`](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%202/Pattern2.java)
+- [`Pattern3.java`](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%202/Pattern3.java)
+- [`Pattern4.java`](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%202/Pattern4.java)
+- [`Pattern5.java`](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%202/Pattern5.java)
+- [`Pattern6.java`](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%202/Pattern6.java)
+- [`Pattern7.java`](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%202/Pattern7.java)
+- [`Pattern8.java`](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%202/Pattern8.java)
+- [`Pattern9.java`](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%202/Pattern9.java)
+- [`Pattern10.java`](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%202/Pattern10.java)
+- [`Pattern11.java`](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%202/Pattern11.java)
+- [`Pattern12.java`](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%202/Pattern12.java)
+- [`Pattern13.java`](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%202/Pattern13.java)
+- [`Pattern14.java`](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%202/Pattern14.java)
+
+For additional exercises, refer to [`ListOfPatternsToTry.md`](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%202/ListOfPatternsToTry.md).
 
 ---
 
@@ -63,19 +77,11 @@ Approaching pattern problems involves:
 Enhance your problem-solving toolkit with these fundamental mathematical operations:
 
 - **Digit Manipulation**:
-  - `FindLastDigit.java`: Extract the last digit of a number.
-  - `TraverseThroughLastDigit.java`: Iterate through each digit from the end.
-  - `FindFirstDigit.java`: Retrieve the first digit of a number.
-  - `CountDigits.java`: Determine the total number of digits in a number.
-  - `FindOddAndEvenDigitsInNumber.java`: Identify and count odd and even digits.
-  - `CornerDigitsSum.java`: Calculate the sum of the first and last digits.
-  - `PrintTheKthDigit.java`: Access the k-th digit of a number.
-
-*Additional Resources*:
-- [25 Essential Concepts for Competitive Programming](https://www.geeksforgeeks.org/25-essential-concepts-for-competitive-programming/)
-
----
-
-By immersing yourself in these topics and actively engaging with the provided exercises, you'll solidify your understanding of OOP principles, familiarize yourself with Competitive Programming jargon, and develop strategies for pattern-based problem-solving. Remember, consistent practice is key to mastery. Happy coding!
-
-*Note: For detailed explanations and code implementations, please refer to the respective `.java` files in this week's directory.*
+  - [`FindLastDigit.java`](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%202/FindLastDigit.java): Extract the last digit of a number.
+  - [`TraverseThroughLastDigit.java`](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%202/TraverseThroughLastDigit.java): Iterate through each digit from the end.
+  - [`FindFirstDigit.java`](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%202/FindFirstDigit.java): Retrieve the first digit of a number.
+  - [`CountDigits.java`](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%202/CountDigits.java): Determine the total number of digits in a number.
+  - [`FindOddAndEvenDigitsInNumber.java`](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%202/FindOddAndEvenDigitsInNumber.java): Identify and count odd and even digits.
+  - [`CornerDigitsSum.java`](https://github.com/S-SathiyaNarayanan/Data-Structures-and-Algorithms/blob/main/Week%202/CornerDigitsSum.java): Calculate
+::contentReference[oaicite:2]{index=2}
+ 
