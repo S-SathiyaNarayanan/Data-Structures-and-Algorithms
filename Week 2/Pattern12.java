@@ -3,13 +3,13 @@ Pattern 12
 Input: 
 n = 4
 Expected output:
-   *
-  ***
- *****
-*******
- *****
-  ***
-   *
+      *
+    * * *
+  * * * * *
+* * * * * * *
+  * * * * *
+    * * *
+      *
 *************************************************************************************************************/
 
 import java.util.Scanner;
@@ -32,7 +32,7 @@ public class Main {
             // The number of stars in each row follows the formula (2*i - 1)
             // This ensures the sequence: 1, 3, 5, 7, ... (odd numbers)
             for (int j = 1; j <= 2 * i - 1; j++) {
-                System.out.print("*");
+                System.out.print("* ");
             }
             // Move to the next line after printing one row
             System.out.println();
@@ -48,7 +48,7 @@ public class Main {
             // Print stars for the current row
             // Again, the number of stars follows (2*i - 1) ensuring symmetry
             for (int j = 1; j <= 2 * i - 1; j++) {
-                System.out.print("*");
+                System.out.print("* ");
             }
             // Move to the next line after printing one row
             System.out.println();
