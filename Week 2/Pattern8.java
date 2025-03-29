@@ -10,6 +10,7 @@ Expected output:
 ****
 
 *************************************************************************************************************/
+
 // Solution 1
 import java.util.Scanner;
 public class Pattern8{
@@ -24,6 +25,7 @@ public class Pattern8{
         }
     }
 }
+
 // Solution 2
 import java.util.Scanner;
 public class Pattern8{
