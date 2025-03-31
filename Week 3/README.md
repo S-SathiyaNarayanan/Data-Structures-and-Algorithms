@@ -1,8 +1,10 @@
-Mathematical concepts:-
-1.palindrome number
-2.Reverse the number
-3.factorial of the number
-4.prime number
+## Mathematical concepts
+1. Palindrome
+2. Reverse a number
+3. Factorial of a number
+4. Factorial
+5. Prime Number
+
 
 DSA:-
 What is a data structure ?
