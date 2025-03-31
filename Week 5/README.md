@@ -27,7 +27,7 @@ STRINGS
 
 ## Time Complexity
 --> Time Complexity & Binary Search
---> Time complexity Analysis - Examples
+\n --> Time complexity Analysis - Examples
 
 ## Array logic building
 
