@@ -13,8 +13,8 @@ public class PalindromeNumber {
         int ReversedNumber = 0;
 
         while (N > 0) {
-            int digit = N % 10;  // Get the last digit
-            ReversedNumber = ReversedNumber * 10 + digit;  // Append it to reversed number
+            int Lastdigit = N % 10;  // Get the last digit
+            ReversedNumber = ReversedNumber * 10 + Lastdigit;  // Append it to reversed number
             N = N / 10;  // Remove the last digit
         }
 
