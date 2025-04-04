@@ -5,6 +5,7 @@ Input :
 Expected output:
 6
 *************************************************************************************************************/
+// Solution 1
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -26,3 +27,15 @@ public class Main {
     }
 }
 
+// Solution 2
+public class Main{
+    public static void main(String[] args){
+        int n=325345;
+        int count=0;
+        while(n>0){
+            n=n/10;
+            count++;
+        }
+        System.out.println(count);
+    }
+}
