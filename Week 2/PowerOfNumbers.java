@@ -1,3 +1,4 @@
+// WARNING! - This code does not handle negative power values.
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
