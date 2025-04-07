@@ -1,3 +1,3 @@
 *****
-Patterns
+Patterns to solve 
 *****
