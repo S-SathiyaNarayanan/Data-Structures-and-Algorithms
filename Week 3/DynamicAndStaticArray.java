@@ -1,48 +1,45 @@
-import java.util.ArrayList;
-import java.util.Scanner;
-
-public class UserDefinedArrayDemo {
+public class ArrayDemo {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        // 1. Declaration and initialization separately
+        int[] numbers1;          // Declaration
+        numbers1 = new int[3];   // Initialization with size 3
+        
+        // Assigning values individually
+        numbers1[0] = 10;
+        numbers1[1] = 20;
+        numbers1[2] = 30;
 
-        // ===== STATIC ARRAY WITH USER-DEFINED SIZE =====
-        System.out.print("Enter size of static array: ");
-        int staticSize = scanner.nextInt();
+        // 2. Declaration with direct initialization
+        int[] numbers2 = {40, 50, 60, 70};  // Size automatically determined
+        
+        // 3. Using new keyword with explicit values
+        String[] cities = new String[] {"Paris", "London", "Berlin"};
+        
+        // 4. Declaration then initialization with default values
+        double[] prices;
+        prices = new double[4];  // All elements initialized to 0.0
 
-        int[] staticArray = new int[staticSize];
+        // Demonstrating array length property
+        System.out.println("\nArray lengths:");
+        System.out.println("numbers1 length: " + numbers1.length);  // 3
+        System.out.println("numbers2 length: " + numbers2.length);  // 4
+        System.out.println("cities length: " + cities.length);      // 3
+        System.out.println("prices length: " + prices.length);      // 4
 
-        System.out.println("Enter " + staticSize + " elements for the static array:");
-        for (int i = 0; i < staticSize; i++) {
-            System.out.print("Element " + (i + 1) + ": ");
-            staticArray[i] = scanner.nextInt();
+        // Using length in array operations
+        System.out.println("\nnumbers1 elements:");
+        for(int i = 0; i < numbers1.length; i++) {
+            System.out.println("Index " + i + ": " + numbers1[i]);
         }
 
-        System.out.println("\nStatic Array Elements:");
-        for (int i = 0; i < staticSize; i++) {
-            System.out.println(staticArray[i]);
-        }
-        System.out.println("Size of static array: " + staticArray.length);
-
-        // ===== DYNAMIC ARRAY WITH USER-DEFINED SIZE =====
-        ArrayList<Integer> dynamicArray = new ArrayList<>();
-
-        System.out.print("\nEnter number of elements to add to the dynamic array: ");
-        int dynamicSizeInput = scanner.nextInt();
-
-        System.out.println("Enter " + dynamicSizeInput + " elements for the dynamic array:");
-        for (int i = 0; i < dynamicSizeInput; i++) {
-            System.out.print("Element " + (i + 1) + ": ");
-            int value = scanner.nextInt();
-            dynamicArray.add(value);
+        System.out.println("\ncities elements:");
+        for(int i = 0; i < cities.length; i++) {
+            System.out.println(cities[i].toUpperCase());
         }
 
-        System.out.println("\nDynamic Array Elements:");
-        for (int i = 0; i < dynamicArray.size(); i++) {
-            System.out.println(dynamicArray.get(i));
-        }
-        System.out.println("Size of dynamic array: " + dynamicArray.size());
-
-        scanner.close();
+        // Accessing elements using length
+        System.out.println("\nLast elements:");
+        System.out.println("Last number: " + numbers2[numbers2.length - 1]);
+        System.out.println("Last city: " + cities[cities.length - 1]);
     }
 }
-
