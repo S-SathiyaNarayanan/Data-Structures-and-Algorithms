@@ -1,3 +1,3 @@
 *****
-Patterns to solve 
+Patterns to solve in java
 *****
