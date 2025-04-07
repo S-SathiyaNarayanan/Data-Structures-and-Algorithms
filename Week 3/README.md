@@ -12,7 +12,7 @@ why we create our own data structure ?
 what is algorithms ?
 
 Array:-
-what is array
+what is array ?
 array is a pre defined data structure
 rules of storing values- contiguos memory blocks is allocated->index
 In Java, both DataType[] arrayName; and DataType arrayName[]; are valid ways to declare an array. However, the preferred style is DataType[] arrayName;
