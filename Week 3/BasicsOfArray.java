@@ -1,45 +1,59 @@
-public class ArrayDemo {
+import java.util.ArrayList;
+
+public class ArrayTypesDemo {
     public static void main(String[] args) {
-        // 1. Declaration and initialization separately
-        int[] numbers1;          // Declaration
-        numbers1 = new int[3];   // Initialization with size 3
+        // ======================
+        // Static Array (Fixed-size)
+        // ======================
+        System.out.println("Static Array Demonstration:");
         
-        // Assigning values individually
-        numbers1[0] = 10;
-        numbers1[1] = 20;
-        numbers1[2] = 30;
-
-        // 2. Declaration with direct initialization
-        int[] numbers2 = {40, 50, 60, 70};  // Size automatically determined
+        // Declaration and initialization of static array
+        int[] staticArray = new int[5];  // Fixed size of 5
         
-        // 3. Using new keyword with explicit values
-        String[] cities = new String[] {"Paris", "London", "Berlin"};
-        
-        // 4. Declaration then initialization with default values
-        double[] prices;
-        prices = new double[4];  // All elements initialized to 0.0
-
-        // Demonstrating array length property
-        System.out.println("\nArray lengths:");
-        System.out.println("numbers1 length: " + numbers1.length);  // 3
-        System.out.println("numbers2 length: " + numbers2.length);  // 4
-        System.out.println("cities length: " + cities.length);      // 3
-        System.out.println("prices length: " + prices.length);      // 4
-
-        // Using length in array operations
-        System.out.println("\nnumbers1 elements:");
-        for(int i = 0; i < numbers1.length; i++) {
-            System.out.println("Index " + i + ": " + numbers1[i]);
+        // Initialize values
+        for(int i = 0; i < staticArray.length; i++) {
+            staticArray[i] = i * 10;
         }
-
-        System.out.println("\ncities elements:");
-        for(int i = 0; i < cities.length; i++) {
-            System.out.println(cities[i].toUpperCase());
+        
+        // Access elements using length property
+        System.out.println("Static array elements:");
+        for(int i = 0; i < staticArray.length; i++) {
+            System.out.print(staticArray[i] + " ");
         }
-
-        // Accessing elements using length
-        System.out.println("\nLast elements:");
-        System.out.println("Last number: " + numbers2[numbers2.length - 1]);
-        System.out.println("Last city: " + cities[cities.length - 1]);
+        
+        // ======================
+        // Dynamic Array (ArrayList)
+        // ======================
+        System.out.println("\n\nDynamic Array (ArrayList) Demonstration:");
+        
+        // Create an ArrayList (dynamic array)
+        ArrayList<Integer> dynamicArray = new ArrayList<>();
+        
+        // Initial size
+        System.out.println("Initial size: " + dynamicArray.size());
+        
+        // Add elements (automatically resizes)
+        dynamicArray.add(10);
+        dynamicArray.add(20);
+        dynamicArray.add(30);
+        
+        System.out.println("After adding 3 elements:");
+        System.out.println("Elements: " + dynamicArray);
+        System.out.println("Size: " + dynamicArray.size());
+        
+        // Add more elements to demonstrate dynamic resizing
+        dynamicArray.add(40);
+        dynamicArray.add(50);
+        dynamicArray.add(60);
+        
+        System.out.println("\nAfter adding 3 more elements:");
+        System.out.println("Elements: " + dynamicArray);
+        System.out.println("New size: " + dynamicArray.size());
+        
+        // Remove an element
+        dynamicArray.remove(2);  // Remove element at index 2 (30)
+        System.out.println("\nAfter removing element at index 2:");
+        System.out.println("Elements: " + dynamicArray);
+        System.out.println("Updated size: " + dynamicArray.size());
     }
 }
