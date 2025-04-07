@@ -1,59 +1,37 @@
-import java.util.ArrayList;
-
-public class ArrayTypesDemo {
+public class ArrayDeclarationDemo {
     public static void main(String[] args) {
-        // ======================
-        // Static Array (Fixed-size)
-        // ======================
-        System.out.println("Static Array Demonstration:");
-        
-        // Declaration and initialization of static array
-        int[] staticArray = new int[5];  // Fixed size of 5
-        
-        // Initialize values
-        for(int i = 0; i < staticArray.length; i++) {
-            staticArray[i] = i * 10;
+        // 1. Declaration and then initialization
+        int[] array1; // declaration
+        array1 = new int[3]; // initialization
+        array1[0] = 5;
+        array1[1] = 10;
+        array1[2] = 15;
+
+        // 2. Declaration and initialization in one line using 'new'
+        int[] array2 = new int[] {20, 25, 30};
+
+        // 3. Declaration and initialization using shorthand
+        int[] array3 = {35, 40, 45};
+
+        // Print sizes using .length
+        System.out.println("Size of array1: " + array1.length);
+        System.out.println("Size of array2: " + array2.length);
+        System.out.println("Size of array3: " + array3.length);
+
+        // Print all arrays
+        System.out.println("\nArray1 elements:");
+        for (int i = 0; i < array1.length; i++) {
+            System.out.println(array1[i]);
         }
-        
-        // Access elements using length property
-        System.out.println("Static array elements:");
-        for(int i = 0; i < staticArray.length; i++) {
-            System.out.print(staticArray[i] + " ");
+
+        System.out.println("\nArray2 elements:");
+        for (int i = 0; i < array2.length; i++) {
+            System.out.println(array2[i]);
         }
-        
-        // ======================
-        // Dynamic Array (ArrayList)
-        // ======================
-        System.out.println("\n\nDynamic Array (ArrayList) Demonstration:");
-        
-        // Create an ArrayList (dynamic array)
-        ArrayList<Integer> dynamicArray = new ArrayList<>();
-        
-        // Initial size
-        System.out.println("Initial size: " + dynamicArray.size());
-        
-        // Add elements (automatically resizes)
-        dynamicArray.add(10);
-        dynamicArray.add(20);
-        dynamicArray.add(30);
-        
-        System.out.println("After adding 3 elements:");
-        System.out.println("Elements: " + dynamicArray);
-        System.out.println("Size: " + dynamicArray.size());
-        
-        // Add more elements to demonstrate dynamic resizing
-        dynamicArray.add(40);
-        dynamicArray.add(50);
-        dynamicArray.add(60);
-        
-        System.out.println("\nAfter adding 3 more elements:");
-        System.out.println("Elements: " + dynamicArray);
-        System.out.println("New size: " + dynamicArray.size());
-        
-        // Remove an element
-        dynamicArray.remove(2);  // Remove element at index 2 (30)
-        System.out.println("\nAfter removing element at index 2:");
-        System.out.println("Elements: " + dynamicArray);
-        System.out.println("Updated size: " + dynamicArray.size());
+
+        System.out.println("\nArray3 elements:");
+        for (int i = 0; i < array3.length; i++) {
+            System.out.println(array3[i]);
+        }
     }
 }
