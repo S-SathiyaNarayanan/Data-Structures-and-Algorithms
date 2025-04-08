@@ -2,7 +2,7 @@ public class TypeCasting {
     public static void main(String[] args) {
         
         // Widening Casting (Automatic)
-        // ---------------------------
+        
         // Rules:
         // 1. Converts smaller types to larger compatible types automatically
         // 2. No explicit casting required
