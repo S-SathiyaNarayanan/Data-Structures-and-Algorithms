@@ -30,7 +30,6 @@ public class TypeCasting {
         System.out.println("char to int: " + charToInt);
 
         // Narrowing Casting (Manual)
-        
         // Rules:
         // 1. Converts larger types to smaller compatible types manually
         // 2. Requires explicit casting using (target-type)
