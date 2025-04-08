@@ -32,7 +32,7 @@ public class TypeCasting {
         // Narrowing Casting (Manual)
         // Rules:
         // 1. Converts larger types to smaller compatible types manually
-        // 2. Requires explicit casting using (target-type)
+        // 2. Requires explicit casting using (target type)
         // 3. May lose data or precision
         // 4. Can produce overflow if value is too large for target type
 
@@ -52,7 +52,7 @@ public class TypeCasting {
 
         int number = 65;
         char intToChar = (char) number;    // Cast to ASCII character
-        System.out.println("int to char: " + intToChar);
+        System.out.println("int to char: " + intToChar);    // The ASCII value for the uppercase letter "A" is 65
 
         // Type Promotion
         // Rules:
