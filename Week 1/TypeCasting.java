@@ -22,7 +22,7 @@ public class TypeCasting {
         System.out.println("short to int: " + promotedInt);
 
         byte byteValue = 8;
-        double doubleValue = byteValue;  // Automatic byte->double conversion
+        double doubleValue = byteValue;    // Automatic byte->double conversion
         System.out.println("byte to double: " + doubleValue);
 
         char charValue = 'A';
