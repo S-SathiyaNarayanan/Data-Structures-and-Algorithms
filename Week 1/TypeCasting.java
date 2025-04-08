@@ -42,20 +42,19 @@ public class TypeCasting {
         int doubleToInt = (int) bigDouble;    // Explicit cast, truncates decimal
         System.out.println("double to int: " + doubleToInt);
 
-        long bigLong = 2147483648L;  // Larger than Integer.MAX_VALUE (2,147,483,647)
-        int longToInt = (int) bigLong;  // Overflow occurs
+        long bigLong = 2147483648L;    // Larger than Integer.MAX_VALUE (2,147,483,647)
+        int longToInt = (int) bigLong;    // Overflow occurs
         System.out.println("long to int (overflow): " + longToInt);
 
         float floatNum = 9.99f;
-        int floatToInt = (int) floatNum;  // Truncates to integer part
+        int floatToInt = (int) floatNum;    // Truncates to integer part
         System.out.println("float to int: " + floatToInt);
 
         int number = 65;
-        char intToChar = (char) number;  // Cast to ASCII character
+        char intToChar = (char) number;    // Cast to ASCII character
         System.out.println("int to char: " + intToChar);
 
         // Type Promotion
-        // -----------------
         // Rules:
         // 1. Automatic conversion in expressions with mixed types
         // 2. All byte, short, char values promoted to int in expressions
@@ -77,22 +76,22 @@ public class TypeCasting {
         float floatResult = intNum * floatNum2;
         System.out.println("int * float = float: " + floatResult);
 
-        char char1 = 'a';  // ASCII 97
-        char char2 = 'b';  // ASCII 98
+        char char1 = 'a';    // ASCII 97
+        char char2 = 'b';    // ASCII 98
         // char + char promoted to int
         int charSum = char1 + char2;
         System.out.println("char + char = int: " + charSum);
 
         // Explicit cast required for assignment
-        byte result = (byte) (byteNum + 50);  // (60 is within byte range)
+        byte result = (byte) (byteNum + 50);    // 60 is within byte range
         System.out.println("byte operation with cast: " + result);
 
         // Constant value within target range doesn't need cast
-        byte constByte = 127;  // Maximum byte value
+        byte constByte = 127;    // Maximum byte value
         System.out.println("Direct byte assignment: " + constByte);
 
         // Type promotion in method arguments
-        printPromotedValue(byteNum);  // byte promoted to int
+        printPromotedValue(byteNum);    // byte promoted to int
     }
 
     // Demonstrates type promotion in method parameters
