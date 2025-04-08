@@ -55,7 +55,6 @@ public class TypeCasting {
         char intToChar = (char) number;  // Cast to ASCII character
         System.out.println("int to char: " + intToChar);
 
-        // -----------------
         // Type Promotion
         // -----------------
         // Rules:
