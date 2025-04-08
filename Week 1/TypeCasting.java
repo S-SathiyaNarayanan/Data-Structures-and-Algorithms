@@ -27,7 +27,7 @@ public class TypeCasting {
 
         char charValue = 'A';
         int charToInt = charValue;    // Automatic char->int (ASCII value)
-        System.out.println("char to int: " + charToInt);
+        System.out.println("char to int: " + charToInt);    // The ASCII value for the uppercase letter "A" is 65
 
         // Narrowing Casting (Manual)
         // Rules:
