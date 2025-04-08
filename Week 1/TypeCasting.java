@@ -1,6 +1,6 @@
 public class TypeCasting {
     public static void main(String[] args) {
-        // ---------------------------
+        
         // Widening Casting (Automatic)
         // ---------------------------
         // Rules:
