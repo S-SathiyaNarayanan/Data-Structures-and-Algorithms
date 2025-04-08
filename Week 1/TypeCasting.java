@@ -18,7 +18,7 @@ public class TypeCasting {
         System.out.println("int to float: " + floatValue);
 
         short shortValue = 50;
-        int promotedInt = shortValue;  // Automatic short->int conversion
+        int promotedInt = shortValue;    // Automatic short->int conversion
         System.out.println("short to int: " + promotedInt);
 
         byte byteValue = 8;
