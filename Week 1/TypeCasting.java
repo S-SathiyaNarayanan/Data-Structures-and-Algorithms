@@ -29,7 +29,6 @@ public class TypeCasting {
         int charToInt = charValue;    // Automatic char->int (ASCII value)
         System.out.println("char to int: " + charToInt);
 
-    
         // Narrowing Casting (Manual)
         // ----------------------------
         // Rules:
