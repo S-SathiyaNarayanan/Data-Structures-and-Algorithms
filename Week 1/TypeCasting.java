@@ -39,7 +39,7 @@ public class TypeCasting {
         System.out.println("\nNarrowing Casting Examples:");
         
         double bigDouble = 1234.5678;
-        int doubleToInt = (int) bigDouble;  // Explicit cast, truncates decimal
+        int doubleToInt = (int) bigDouble;    // Explicit cast, truncates decimal
         System.out.println("double to int: " + doubleToInt);
 
         long bigLong = 2147483648L;  // Larger than Integer.MAX_VALUE (2,147,483,647)
