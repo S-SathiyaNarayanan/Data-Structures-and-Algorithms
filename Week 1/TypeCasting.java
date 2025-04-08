@@ -14,7 +14,7 @@ public class TypeCasting {
         long longValue = intValue;    // Automatic int->long conversion
         System.out.println("int to long: " + longValue);
 
-        float floatValue = intValue;  // Automatic int->float conversion
+        float floatValue = intValue;     // Automatic int->float conversion
         System.out.println("int to float: " + floatValue);
 
         short shortValue = 50;
