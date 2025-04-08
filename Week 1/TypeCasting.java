@@ -11,7 +11,7 @@ public class TypeCasting {
         System.out.println("\nWidening Casting Examples:");
         
         int intValue = 100;
-        long longValue = intValue;  // Automatic int->long conversion
+        long longValue = intValue;    // Automatic int->long conversion
         System.out.println("int to long: " + longValue);
 
         float floatValue = intValue;  // Automatic int->float conversion
