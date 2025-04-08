@@ -26,7 +26,7 @@ public class TypeCasting {
         System.out.println("byte to double: " + doubleValue);
 
         char charValue = 'A';
-        int charToInt = charValue;  // Automatic char->int (ASCII value)
+        int charToInt = charValue;    // Automatic char->int (ASCII value)
         System.out.println("char to int: " + charToInt);
 
         // ----------------------------
