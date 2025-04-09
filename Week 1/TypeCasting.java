@@ -30,7 +30,7 @@ public class TypeCasting {
         int charToInt = charValue;    // Automatic char->int (ASCII value)
         System.out.println("char to int: " + charToInt);    // The ASCII value for the uppercase letter "A" is 65
 
-        // Narrowing Casting (Manual)
+        // Narrowing Casting (Explicit)(Manual)
         // Rules:
         // 1. Converts larger types to smaller compatible types manually
         // 2. Requires explicit casting using (target type)
@@ -63,6 +63,7 @@ public class TypeCasting {
         // 3. If operands differ, promoted to larger type
         // 4. Final result type same as promoted operands
         // 5. Assignment may require explicit cast
+        // 6. May cause data loss in certain cases
 
         System.out.println("\nType Promotion Examples:");
         
