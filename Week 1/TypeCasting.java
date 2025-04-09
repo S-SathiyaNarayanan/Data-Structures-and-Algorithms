@@ -35,7 +35,7 @@ public class TypeCasting {
         // 2. Requires explicit casting using (target type)
         // 3. Order: double -> float -> long -> int -> char -> short -> byte
         // 4. May lose data or precision
-        // 5. Can produce overflow if value is too large for target type
+        // 5. Can produce overflow if value is too large for target type 
 
         System.out.println("\nNarrowing Casting Examples:");
         
