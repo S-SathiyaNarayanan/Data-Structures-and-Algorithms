@@ -5,7 +5,7 @@ public class TypeCasting {
         // Rules:
         // 1. Converts smaller types to larger compatible types automatically
         // 2. No explicit casting required
-        // 3. Order: byte -> short -> int -> long -> float -> double
+        // 3. Order: byte -> short -> char -> int -> long -> float -> double
         // 4. char can be promoted to int (using ASCII value)
 
         System.out.println("\nWidening Casting Examples:");
