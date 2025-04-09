@@ -5,7 +5,6 @@ Input: a = 3, b = 3, k = 1
 Output: 7
 Explanation: 33 = 27 and 1st digit from right is 7
 *************************************************************************************************************/
-// Solution 1
 class Solution {
     static long kthDigit(int a, int b, int k) {
         long LastDigit = 0;
