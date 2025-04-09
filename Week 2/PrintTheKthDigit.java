@@ -5,21 +5,20 @@ Input: a = 3, b = 3, k = 1
 Output: 7
 Explanation: 33 = 27 and 1st digit from right is 7
 *************************************************************************************************************/
-
+// Solution 1
 class Solution {
     static long kthDigit(int a, int b, int k) {
+        long LastDigit = 0;
         // Calculate a^b using Math.pow(), which returns a double
-        // We explicitly cast it to long to handle large values correctly
-        long result = (long) Math.pow(a, b);
-        
-        // Extract the k-th digit from the right
-        // We repeatedly divide by 10 (k-1) times to remove rightmost digits
-        for (int i = 1; i < k; i++) {
-            result = result / 10;
+        long N = (long) Math.pow(a, b);    // we cast it to long to remove the decimal part
+        // Extract digits from the end one by one until we reach the kth digit
+        for (int i = 1; i <= k; i++) {
+            LastDigit = N % 10;    // Get the last digit of N
+            N = N / 10;    // Remove the last digit from N
         }
-        
-        // Return the last remaining digit after shifting
-        return result % 10;
+        return LastDigit;    // Returns the kth digit from the right 
     }
 }
+
+
 
