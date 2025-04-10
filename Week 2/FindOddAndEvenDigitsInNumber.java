@@ -8,7 +8,6 @@ public class Main {
         while (n > 0) {
             int LastDigit = n % 10;    // Extract the last digit
 
-            
             // Check if the digit is even or odd and update the counters
             if (LastDigit % 2 == 0) {
                 counteven++;    // Increment even counter
