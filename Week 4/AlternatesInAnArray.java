@@ -4,7 +4,6 @@ You are given an array arr[], the task is to return a list elements of arr in al
 index 0.
 Input: arr[] = [1, 2, 3, 4]
 Output: 1 3
-
 Explanation:
 Take first element: 1
 Skip second element: 2
