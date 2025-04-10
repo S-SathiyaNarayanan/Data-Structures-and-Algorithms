@@ -13,7 +13,6 @@ Explanation:
 Complete the function printTriangle() which takes an integer n  as the input parameter and prints the pattern.
 *************************************************************************************************************/
 
-
 class Solution {
     void printTriangle(int n) {
         for (int i = 1; i <= n; i++) {
