@@ -7,6 +7,7 @@ public class ArrayDeclarationDemo {
         array1[1] = 10;
         array1[2] = 15;
 
+        
         // 2. Declaration and initialization in one line using 'new'
         int[] array2 = new int[] {20, 25, 30};
 
