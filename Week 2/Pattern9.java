@@ -14,7 +14,27 @@ Output:
 * *
 *
 *************************************************************************************************************/
+// Solution 1
+public class Pattern9{
+    public static void main(String[] args){
+        int N=5;
+        for(int i=1;i<=N;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+        for(int a=1;a<=N-1;a++){
+            for(int b=1;b<=N-a;b++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
 
+
+// Soluton 2
 public class Pattern9 {
     public static void main(String[] args) {
         int n = 5; // Number of rows for the top half of the pattern
