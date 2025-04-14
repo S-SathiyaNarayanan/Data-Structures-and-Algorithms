@@ -6,3 +6,16 @@ Input : n = 200
 Output: 2
 Explanation: By reversing the digits of number, number will change into 2.
 *************************************************************************************************************/
+
+class Solution {
+    public int reverseDigits(int n) {
+        // Code here
+        int ReversedNumber=0;
+        while(n>0){
+            int LastDigit=n%10;
+            ReversedNumber=ReversedNumber*10+LastDigit;
+            n=n/10;
+        }
+        return ReversedNumber;
+    }
+}
