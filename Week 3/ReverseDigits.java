@@ -12,7 +12,7 @@ class Solution {
         // Code here
         int ReversedNumber=0;
         while(n>0){
-            int LastDigit=n%10;
+            int LastDigit=n%10;    // Get the last digit
             ReversedNumber=ReversedNumber*10+LastDigit;
             n=n/10;
         }
