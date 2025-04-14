@@ -9,13 +9,13 @@ Explanation: By reversing the digits of number, number will change into 2.
 
 class Solution {
     public int reverseDigits(int n) {
-        // Code here
-        int ReversedNumber=0;
+        int ReversedNumber=0;    // Initialize the value of ReversedNumber as 0
         while(n>0){
             int LastDigit=n%10;    // Get the last digit
             ReversedNumber=ReversedNumber*10+LastDigit;    // Append it to reversed number
-            n=n/10;
+            n=n/10;    // Remove the last digit
         }
-        return ReversedNumber;
+        // Value of n becomes 0
+        return ReversedNumber;   
     }
 }
