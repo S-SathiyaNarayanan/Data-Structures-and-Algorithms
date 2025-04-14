@@ -13,7 +13,7 @@ class Solution {
         int ReversedNumber=0;
         while(n>0){
             int LastDigit=n%10;    // Get the last digit
-            ReversedNumber=ReversedNumber*10+LastDigit;
+            ReversedNumber=ReversedNumber*10+LastDigit;    // Append it to reversed number
             n=n/10;
         }
         return ReversedNumber;
