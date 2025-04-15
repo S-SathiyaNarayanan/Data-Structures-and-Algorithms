@@ -13,3 +13,14 @@ class Solution {
         return (n*(n+1))/2;
     }
 }
+
+// Solution 2
+class Solution {
+    public static int seriesSum(int n) {
+        int sum=0;
+        for(int i=0;i<=n;i++){
+            sum=sum+i;
+        }
+        return sum;
+    }
+}
