@@ -14,13 +14,15 @@ class Solution {
     }
 }
 
-// Solution 2
+// Solution 2 - 
 class Solution {
     public static int seriesSum(int n) {
-        int sum=0;
+        int sum=0;    // Initialize the value of sum to 0
+        // Iterate from 0 to n (inclusive)
         for(int i=0;i<=n;i++){
-            sum=sum+i;
+            sum=sum+i;    // Add the current number 'i' to the running total 'sum'
         }
+        // After the loop ends, return the computed sum of the series
         return sum;
     }
 }
