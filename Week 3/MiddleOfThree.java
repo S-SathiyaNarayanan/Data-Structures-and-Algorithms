@@ -9,12 +9,18 @@ Explanation: Since 518>300 and 518<978, so 518 is the middle element.
 
 class Solution {
     int middle(int a, int b, int c) {
-        if((a>b)!=(a>c)){
+        // If a lies between b and c, then (a > b) != (a > c) will be true
+        if ((a > b) != (a > c)) {
             return a;
-        }else if((b>a)!=(b>c)){
+        }
+        // If b lies between a and c, then (b > a) != (b > c) will be true
+        else if ((b > a) != (b > c)) {
             return b;
-        }else{
+        }
+        // If above both are false, then c must be the middle value
+        else {
             return c;
         }
     }
 }
+
