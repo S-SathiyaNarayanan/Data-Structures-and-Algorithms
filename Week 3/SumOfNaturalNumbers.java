@@ -6,3 +6,5 @@ Input: n = 1
 Output: 1
 Explanation: For n = 1, the sum will be 1
 *************************************************************************************************************/
+
+// Solution 1 - Sum of Natural numbers formula (n*(n+1))/2
