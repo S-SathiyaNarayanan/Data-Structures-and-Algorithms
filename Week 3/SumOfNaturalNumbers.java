@@ -8,3 +8,8 @@ Explanation: For n = 1, the sum will be 1
 *************************************************************************************************************/
 
 // Solution 1 - Sum of Natural numbers formula (n*(n+1))/2
+class Solution {
+    public static int seriesSum(int n) {
+        return (n*(n+1))/2;
+    }
+}
