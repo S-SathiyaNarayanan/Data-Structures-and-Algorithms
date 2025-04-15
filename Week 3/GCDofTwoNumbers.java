@@ -26,3 +26,26 @@ class Solution {
 }
 
 // Solution 2 - Normal thought process ( Brute-force approach )
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the value of a: ");
+        int a=sc.nextInt();
+        System.out.print("Enter the value of b: ");
+        int b=sc.nextInt();
+        int n=0;
+        int GCD=0;
+        if(a<b){
+            n=a;
+        }else{
+            n=b;
+        }
+        for(int i=1;i<=n;i++){
+            if(a%i==0 && b%i==0){
+                GCD=i;
+            }
+        }
+        System.out.println("The GCD of "+a+" and " +b+" is "+GCD);
+    }
+}
