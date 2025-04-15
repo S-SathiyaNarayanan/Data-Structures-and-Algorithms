@@ -14,7 +14,7 @@ class Solution {
     }
 }
 
-// Solution 2 - 
+// Solution 2 - Normal thought process ( Brute-force approach )
 class Solution {
     public static int seriesSum(int n) {
         int sum=0;    // Initialize the value of sum to 0
