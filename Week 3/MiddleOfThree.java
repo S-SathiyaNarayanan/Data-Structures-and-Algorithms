@@ -6,6 +6,7 @@ Input: a = 978, b = 518, c = 300
 Output: 518
 Explanation: Since 518>300 and 518<978, so 518 is the middle element.
 *************************************************************************************************************/
+
 // Solution 1 - XOR Approach
 class Solution {
     int middle(int a, int b, int c) {
