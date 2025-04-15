@@ -1,8 +1,8 @@
 /*************************************************************************************************************
 🪙GeeksforGeeks - Sum of Natural Numbers
-You are given an integer n. Your task is to reverse the digits, ensuring that the reversed number has no 
-leading zeroes.
-Input : n = 200
-Output: 2
-Explanation: By reversing the digits of number, number will change into 2.
+Given an integer n, your task is to compute the sum of all natural numbers from 1 to n (inclusive). If n is 0,
+the sum should be 0.
+Input: n = 1
+Output: 1
+Explanation: For n = 1, the sum will be 1
 *************************************************************************************************************/
