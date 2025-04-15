@@ -1,5 +1,5 @@
 /*************************************************************************************************************
-🪙GeeksforGeeks - Prime Number
+🪙GeeksforGeeks - GCD of two numbers
 Given a number n, determine whether it is a prime number or not. 
 Input: n = 7
 Output: true
