@@ -9,4 +9,15 @@ Input: a = 1, b = 1
 Output: 1
 Explanation: GCD of 1 and 1 is 1
 *************************************************************************************************************/
+class Solution {
+    public static int gcd(int a, int b) {
+        // code here
+        while(b!=0){
+            int temp=b;
+            b=a%b;
+            a=temp;
+        }
+        return a;
+    }
+}
 
