@@ -1,4 +1,4 @@
-// Solution 1 
+// Solution 1 - Swapping variables with temporary variable
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
