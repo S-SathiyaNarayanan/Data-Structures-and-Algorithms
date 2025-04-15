@@ -25,4 +25,4 @@ class Solution {
     }
 }
 
-// Solution 2 - Normal thought process
+// Solution 2 - Normal thought process ( Brute-force approach )
