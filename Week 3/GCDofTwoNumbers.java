@@ -25,3 +25,4 @@ class Solution {
     }
 }
 
+// Solution 2 - Normal thought process
