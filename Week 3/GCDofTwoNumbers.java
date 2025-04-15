@@ -36,14 +36,16 @@ public class Main{
         int b=sc.nextInt();
         int n=0;
         int GCD=0;
+        // Determine the smaller number between a and b
         if(a<b){
             n=a;
         }else{
             n=b;
         }
+        // Iterate from 1 to the smaller number to find common divisors
         for(int i=1;i<=n;i++){
             if(a%i==0 && b%i==0){
-                GCD=i;
+                GCD=i;    // If i divides both a and b, update GCD
             }
         }
         System.out.println("The GCD of "+a+" and " +b+" is "+GCD);
