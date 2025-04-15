@@ -13,7 +13,7 @@ Explanation: GCD of 1 and 1 is 1
 // Solution 1 - Euclidean algorithm
 class Solution {
     public static int gcd(int a, int b) {
-        // code here
+        // Loop runs until b becomes 0
         while(b!=0){
             int temp=b;
             b=a%b;
