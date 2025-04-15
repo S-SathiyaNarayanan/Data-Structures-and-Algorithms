@@ -1,6 +1,7 @@
 /*************************************************************************************************************
 🪙GeeksforGeeks - GCD of two numbers
-Given a number n, determine whether it is a prime number or not. 
+Given two positive integers a and b, find GCD of a and b.
+Note: Don't use the inbuilt gcd function
 Input: n = 7
 Output: true
 Explanation: 7 has exactly two divisors: 1 and 7, making it a prime number.
