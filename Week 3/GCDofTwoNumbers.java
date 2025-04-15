@@ -15,9 +15,9 @@ class Solution {
     public static int gcd(int a, int b) {
         // Loop runs until b becomes 0
         while(b!=0){
-            int temp=b;
-            b=a%b;
-            a=temp;
+            int temp = b;    // Store the current value of b in a temporary variable
+            b = a % b;    // Update b to the remainder of a divided by b
+            a = temp;
         }
         return a;
     }
