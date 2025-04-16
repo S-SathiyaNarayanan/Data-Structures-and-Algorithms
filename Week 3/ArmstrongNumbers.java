@@ -1,5 +1,5 @@
 /*************************************************************************************************************
-🪙GeeksforGeeks - GCD of two numbers
+🪙GeeksforGeeks - Armstrong Numbers
 Given two positive integers a and b, find GCD of a and b.
 Note: Don't use the inbuilt gcd function
 Input: a = 3, b = 6
