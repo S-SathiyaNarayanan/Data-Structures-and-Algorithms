@@ -1,11 +1,11 @@
 /*************************************************************************************************************
-🪙GeeksforGeeks - GCD of two numbers
-Given two positive integers a and b, find GCD of a and b.
+🪙GeeksforGeeks - Find n-th term of series 1, 3, 6, 10, 15, 21
+Given a number n, find the nth term in the series 1, 3, 6, 10, 15, 21…
 Note: Don't use the inbuilt gcd function
-Input: a = 3, b = 6
-Output: 3
-Explanation: GCD of 3 and 6 is 3
-Input: a = 1, b = 1
-Output: 1
-Explanation: GCD of 1 and 1 is 1
+Input: n = 4 
+Output: 10
+Explanation: The 4th term of the Series is 10.
+Input: n = 3 
+Output: 6
+Explanation: The 3rd term of the Series is 6.
 *************************************************************************************************************/
