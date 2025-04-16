@@ -1,7 +1,6 @@
 /*************************************************************************************************************
 🪙GeeksforGeeks - Find n-th term of series 1, 3, 6, 10, 15, 21
 Given a number n, find the nth term in the series 1, 3, 6, 10, 15, 21…
-Note: Don't use the inbuilt gcd function
 Input: n = 4 
 Output: 10
 Explanation: The 4th term of the Series is 10.
