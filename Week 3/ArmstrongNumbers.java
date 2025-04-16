@@ -1,6 +1,6 @@
 /*************************************************************************************************************
 🪙GeeksforGeeks - Armstrong Numbers
-You are given a 3-digit number n, Find whether it is an Armstrong number or not
+You are given a 3 digit number n, Find whether it is an Armstrong number or not
 Note: Don't use the inbuilt gcd function
 Input: a = 3, b = 6
 Output: 3
