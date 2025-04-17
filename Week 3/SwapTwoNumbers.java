@@ -10,7 +10,7 @@ Explanation: After swapping it becomes 9 and 13.
 // Solution 1 - Using Arithmetic Operators
 // ❌ Readability: Slightly confusing
 // ❌ Risk of Integer Overflow if a + b exceeds limit
-// ❌ Works only with numeric types (int, float, etc.)
+// ❌ Works only with numeric types (int, long, float, double)
 // ⚡ Performance: Very fast
 // ❌ Not fail proof – can crash or give wrong results
 class Solution{
@@ -26,7 +26,7 @@ class Solution{
 // Solution 2 - Using Bitwise XOR
 // ❌ Readability: More confusing, less intuitive
 // ✅ Safe from Overflow
-// ❌ Works only with integers (not float or objects)
+// ❌ Works only with Integral types (int, long, short, byte, char)
 // ⚡ Performance: Very fast
 // ❌ Not fail-proof – hard to debug if things go wrong
 class Solution{
