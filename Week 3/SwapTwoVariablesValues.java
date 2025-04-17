@@ -1,7 +1,7 @@
 // Solution 1 - Swapping variables with temporary variable
 // ✅ Readable: Easy to understand
 // ✅ Safe from Overflow: No risk
-// ✅ Works with all types (int, float, string, etc.)
+// ✅ Works with all types (int, long, float, double, short, byte, char, String, boolean, and objects)
 // ✅ Performance: Very fast
 // ✅ Fail proof: 100% reliable
 
