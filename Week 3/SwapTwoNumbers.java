@@ -24,6 +24,11 @@ class Solution{
 }
 
 // Solution 2 - Using Bitwise XOR
+// ❌ Readability: More confusing, less intuitive
+// ✅ Safe from Overflow
+// ❌ Works only with integers (not float or objects)
+// ⚡ Performance: Very fast
+// ❌ Not fail-proof – hard to debug if things go wrong
 class Solution{
     static List<Integer> get(int a,int b)
     {
