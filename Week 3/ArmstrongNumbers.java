@@ -10,3 +10,21 @@ Input: n = 372
 Output: false
 Explanation: 372 is not an Armstrong number since 3^3 + 7^3 + 2^3 = 378 
 *************************************************************************************************************/
+
+class Solution {
+    static boolean armstrongNumber(int n) {
+        int OriginalNumber = n;                 // Store the original number for later comparison
+        int size = String.valueOf(n).length();  // Calculate the number of digits in the number
+        int sum = 0;           
+        // Loop through each digit of the number
+        while (n > 0) {
+            int LastDigit = n % 10;                       // Extract the last digit
+            sum = sum + (int) Math.pow(LastDigit, size);  // Add the digit raised to the power of 'size' to sum
+            n = n / 10;                                   // Remove the last digit from the number
+        }
+        // Check if the sum of powers is equal to the original number
+        boolean isArmstrongNumber = (OriginalNumber == sum);
+        return isArmstrongNumber;
+    }
+}
+
