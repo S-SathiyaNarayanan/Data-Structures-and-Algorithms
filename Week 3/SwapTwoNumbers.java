@@ -7,7 +7,7 @@ Output: 9 13
 Explanation: After swapping it becomes 9 and 13.
 *************************************************************************************************************/
 
-// Solution 1 - 
+// Solution 1 - Using Arithmetic Operators
 class Solution{
     static List<Integer> get(int a,int b)
     {
@@ -18,7 +18,7 @@ class Solution{
     }
 }
 
-// Solution 2 -
+// Solution 2 - Using Bitwise XOR
 class Solution{
     static List<Integer> get(int a,int b)
     {
