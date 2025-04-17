@@ -9,16 +9,19 @@ Explanation: The reverse of 2 is 2, and 2^2 = 4.
 
 class Solution {
     public int reverseExponentiation(int n) {
-        int Base=n;
-        int ReversedPower=0;
-        int Result=0;
-        while(n>0){
-            int LastDigit=n%10;
-            ReversedPower=ReversedPower*10+LastDigit;
-            n=n/10;
+        int Base = n;             // Store the original number as base
+        int ReversedPower = 0;    // This will hold the reversed digits of n
+        int Result = 0;           // This will store the final result
+        // Reverse the digits of n
+        while(n > 0){
+            int LastDigit = n % 10;                         // Get the last digit
+            ReversedPower = ReversedPower * 10 + LastDigit; // Append digit to reversed number
+            n = n / 10;                                     // Remove the last digit
         }
-        Result=(int)Math.pow(Base,ReversedPower);
-        return Result;
+        // Calculate base raised to the power of the reversed number
+        Result = (int)Math.pow(Base, ReversedPower);
+        return Result; 
     }
 }
+
 
