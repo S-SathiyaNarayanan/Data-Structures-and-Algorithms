@@ -10,3 +10,15 @@ Input: n = 5
 Output: 1
 Explanation: 5! = 120, one trailing zero
 *************************************************************************************************************/
+
+class Solution {
+    public int trailingZeroes(int n) {
+        int count = 0;
+        while (n > 0) {
+            n = n / 5;          // Divide n by 5 to count how many multiples of 5 are present
+            count = count + n;  // Add the result to count (to include higher powers of 5)
+        }
+        return count;           // Return total number of trailing zeroes in n!
+    }
+}
+
