@@ -11,9 +11,9 @@ Explanation: After swapping it becomes 9 and 13.
 class Solution{
     static List<Integer> get(int a,int b)
     {
-        a=a+b;
-        b=a-b;
-        a=a-b;
+        a = a + b;
+        b = a - b;
+        a = a - b;
         return Arrays.asList(a,b);
     }
 }
@@ -22,9 +22,9 @@ class Solution{
 class Solution{
     static List<Integer> get(int a,int b)
     {
-        a=a^b;
-        b=a^b;
-        a=a^b;
+        a = a ^ b;
+        b = a ^ b;
+        a = a ^ b;
         return Arrays.asList(a,b);
     }
 }
