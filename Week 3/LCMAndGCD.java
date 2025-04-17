@@ -1,13 +1,13 @@
 /*************************************************************************************************************
 🪙GeeksforGeeks - LCM And GCD
-Given two positive integers a and b, find GCD of a and b.
-Note: Don't use the inbuilt gcd function
-Input: a = 3, b = 6
-Output: 3
-Explanation: GCD of 3 and 6 is 3
-Input: a = 1, b = 1
-Output: 1
-Explanation: GCD of 1 and 1 is 1
+Given two integers a and b, the task is to compute their LCM and GCD and return an array containing their LCM 
+and GCD
+Input: a = 5 , b = 10
+Output: [10, 5]
+Explanation: LCM of 5 and 10 is 10, while their GCD is 5
+Input: a = 14 , b = 8
+Output: [56, 2]
+Explanation: LCM of 14 and 8 is 56, while their GCD is 2
 *************************************************************************************************************/
 
 class Solution {
