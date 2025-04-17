@@ -1,4 +1,9 @@
 // Solution 1 - Swapping variables with temporary variable
+// ✅ Readable: Easy to understand
+// ✅ Safe from Overflow: No risk
+// ✅ Works with all types (int, float, string, etc.)
+// ✅ Performance: Very fast
+// ✅ Fail-proof: 100% reliable
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
