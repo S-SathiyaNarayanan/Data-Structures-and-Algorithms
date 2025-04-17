@@ -8,6 +8,11 @@ Explanation: After swapping it becomes 9 and 13.
 *************************************************************************************************************/
 
 // Solution 1 - Using Arithmetic Operators
+// ❌ Readability: Slightly confusing
+// ❌ Risk of Integer Overflow if a + b exceeds limit
+// ❌ Works only with numeric types (int, float, etc.)
+// ⚡ Performance: Very fast
+// ❌ Not fail proof – can crash or give wrong results
 class Solution{
     static List<Integer> get(int a,int b)
     {
