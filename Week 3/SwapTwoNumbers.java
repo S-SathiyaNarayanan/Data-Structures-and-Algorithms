@@ -1,7 +1,8 @@
 /*************************************************************************************************************
 🪙GeeksforGeeks - Swap two numbers
-Given a positive integer, N. Find the factorial of N.
-Input: N = 5
-Output: 120
-Explanation: 1 x 2 x 3 x 4 x 5 = 120
+You are given two numbers a and b. Your task is to swap the given two numbers
+Note: Try to do it without a temporary variable
+Input: a = 13, b = 9
+Output: 9 13
+Explanation: After swapping it becomes 9 and 13.
 *************************************************************************************************************/
