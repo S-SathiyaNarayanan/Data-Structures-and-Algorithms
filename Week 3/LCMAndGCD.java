@@ -9,10 +9,8 @@ class Solution {
             b = a % b;        // Update b to the remainder of a divided by b
             a = temp;         // Update a to the previous value of b
         }
-        int GCD = a;  // After the loop, 'a' holds the GCD
-        // Calculate LCM using the formula: (x * y) / GCD
-        int LCM = (int)((long)x * (long)y) / GCD;
-        // Return result as an array: {LCM, GCD}
+        int GCD = a;  
+        int LCM = (int)((long)x * (long)y) / GCD;    // Calculate LCM using the formula: (x * y) / GCD
         return new int[]{LCM, GCD};
     }
 }
