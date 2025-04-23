@@ -9,7 +9,7 @@ Output: 6
 Explanation: The 3rd term of the Series is 6.
 *************************************************************************************************************/
 
-// Solution 1 - Using the formula for the sum of the first n natural numbers n * (n + 1) / 2
+// Solution 1 - Mathematical Formula Approach
 class Solution {
     static int findNthTerm(int n) {
         return n*(n+1)/2;
