@@ -8,7 +8,7 @@ Input: n = 1
 Output: false
 Explanation: 1 has only one divisor (1 itself), which is not sufficient for it to be considered prime.
 *************************************************************************************************************/
-
+// Solution 2 - 
 class Solution {
     static boolean isPrime(int n) {
         if (n <= 1) return false;        // Check if n is less than or equal to 1 (not prime)
