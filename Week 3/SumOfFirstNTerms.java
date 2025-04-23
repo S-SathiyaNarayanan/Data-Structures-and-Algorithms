@@ -12,13 +12,10 @@ class Solution {
 class Solution {
     int sumOfSeries(int n) {
         int sum = 0;
-        
         // Loop through 1 to n and add the cube of each number to the sum
         for (int i = 1; i <= n; i++) {
-            sum = sum + (int)Math.pow(i, 3);  // Calculate i^3 and add it to the sum
-        }
-        
-        // Return the total sum of cubes
-        return sum;
+            sum = sum + (int)Math.pow(i, 3);    // Calculate i^3 and add it to the sum
+        } 
+        return sum;    // Return the total sum of cubes
     }
 }
