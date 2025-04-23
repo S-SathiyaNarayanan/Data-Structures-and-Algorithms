@@ -8,6 +8,8 @@ Input: n = 1
 Output: false
 Explanation: 1 has only one divisor (1 itself), which is not sufficient for it to be considered prime.
 *************************************************************************************************************/
+// Solution 1 - Uses i * i <= n
+
 // Solution 2 - Uses Math.sqrt(n)
 class Solution {
     static boolean isPrime(int n) {
