@@ -12,7 +12,6 @@ Explanation: 1 has only one divisor (1 itself), which is not sufficient for it t
 // Solution 1 - Uses i * i <= n
 class Solution {
     static boolean isPrime(int n) {
-        // code here
         if(n<=1) return false;
         if(n==2) return true;
         if(n%2==0) return false;
