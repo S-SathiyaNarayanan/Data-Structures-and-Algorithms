@@ -14,7 +14,6 @@ Explanation: The 3rd term of the Series is 6.
 // Solution 2
 class Solution {
     static int findNthTerm(int n) {
-        // code here
         int sum=0;
         for(int i=1;i<=n;i++){
             sum=sum+i;
