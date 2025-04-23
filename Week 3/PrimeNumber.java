@@ -31,7 +31,12 @@ class Solution {
         if (n <= 1) return false;        // Check if n is less than or equal to 1 (not prime)
         if (n == 2) return true;         // 2 is the only even prime number 
         if (n % 2 == 0) return false;    // Eliminate even numbers greater than 2
+
+        // Precompute square root once to:
+        // 1. Avoid expensive sqrt calculation in each iteration
+        // 2. Prevent integer overflow that can occur with i*i in loop condition
         int sqrtN = (int) Math.sqrt(n);  // Calculate square root of n to reduce number of iterations
+        
         // Check only odd divisors from 3 up to sqrt(n)
         for (int i = 3; i <= sqrtN; i += 2) {
             if (n % i == 0) return false;  // If any divisor is found, n is not prime
