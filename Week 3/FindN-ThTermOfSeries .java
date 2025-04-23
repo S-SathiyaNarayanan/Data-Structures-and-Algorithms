@@ -10,7 +10,12 @@ Explanation: The 3rd term of the Series is 6.
 *************************************************************************************************************/
 
 // Solution 1
-
+class Solution {
+    static int findNthTerm(int n) {
+        // code here
+        return n*(n+1)/2;
+    }
+}
 // Solution 2
 class Solution {
     static int findNthTerm(int n) {
