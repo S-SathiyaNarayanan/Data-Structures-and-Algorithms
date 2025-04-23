@@ -23,6 +23,6 @@ class Solution {
         for(int i=1;i<=n;i++){
             sum=sum+i;    // Add each number from 1 to n to the sum
         }
-        return sum;
+        return sum;    // Return the final sum, which is the n-th term
     }
 }
