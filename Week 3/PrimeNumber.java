@@ -21,6 +21,7 @@ class Solution {
         return true;
     }
 }
+
 // Solution 2 - Uses Math.sqrt(n)
 class Solution {
     static boolean isPrime(int n) {
