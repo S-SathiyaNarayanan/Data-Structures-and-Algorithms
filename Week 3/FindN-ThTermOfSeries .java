@@ -11,4 +11,4 @@ Explanation: The 3rd term of the Series is 6.
 
 // Solution 1
 
-//
+// Solution 2
