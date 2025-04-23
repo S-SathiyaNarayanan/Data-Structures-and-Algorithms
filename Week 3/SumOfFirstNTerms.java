@@ -1,5 +1,6 @@
 
 
+// Solution
 class Solution {
     int sumOfSeries(int n) {
         int sum=0;
