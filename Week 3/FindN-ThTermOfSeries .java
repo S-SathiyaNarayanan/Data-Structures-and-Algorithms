@@ -16,7 +16,7 @@ class Solution {
     }
 }
 
-// Solution 2 - 
+// Solution 2 - Iterative Approach (Loop-based Summation)
 class Solution {
     static int findNthTerm(int n) {
         int sum=0;
