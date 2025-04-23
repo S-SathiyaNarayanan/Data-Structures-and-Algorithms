@@ -10,6 +10,9 @@ Explanation: 1 has only one divisor (1 itself), which is not sufficient for it t
 *************************************************************************************************************/
 
 // Solution 1 - Uses i * i <= n
+// WARNING: Potential integer overflow in loop condition
+// i*i becomes negative when i > 46340 (sqrt(Integer.MAX_VALUE))
+// This can cause infinite loops for large primes near 2^31-1
 class Solution {
     static boolean isPrime(int n) {
         if(n<=1) return false;
