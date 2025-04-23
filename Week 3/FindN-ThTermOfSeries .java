@@ -21,7 +21,7 @@ class Solution {
     static int findNthTerm(int n) {
         int sum=0;    // Initialize sum to accumulate the series
         for(int i=1;i<=n;i++){
-            sum=sum+i;
+            sum=sum+i;    // Add each number from 1 to n to the sum
         }
         return sum;
     }
