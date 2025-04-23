@@ -1,6 +1,11 @@
 
 // Solution 1 - 
-
+class Solution {
+    int sumOfSeries(int n) {
+        int sum=(n*(n+1))/2;
+        return sum*sum;
+    }
+}
 
 // Solution 2 - Brute Force Approach
 class Solution {
