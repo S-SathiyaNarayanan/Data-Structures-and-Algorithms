@@ -15,6 +15,7 @@ class Solution {
         return n*(n+1)/2;
     }
 }
+
 // Solution 2
 class Solution {
     static int findNthTerm(int n) {
