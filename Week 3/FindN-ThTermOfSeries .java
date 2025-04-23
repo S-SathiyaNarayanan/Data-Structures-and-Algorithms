@@ -19,7 +19,7 @@ class Solution {
 // Solution 2 - Iterative Approach (Loop-based Summation)
 class Solution {
     static int findNthTerm(int n) {
-        int sum=0;
+        int sum=0;    // Initialize sum to accumulate the series
         for(int i=1;i<=n;i++){
             sum=sum+i;
         }
