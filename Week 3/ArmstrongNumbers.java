@@ -10,7 +10,7 @@ Input: n = 372
 Output: false
 Explanation: 372 is not an Armstrong number since 3^3 + 7^3 + 2^3 = 378 
 *************************************************************************************************************/
-
+// Solution 2 - Using Iterative Approach
 class Solution {
     static boolean armstrongNumber(int n) {
         int OriginalNumber = n;                 // Store the original number for later comparison
