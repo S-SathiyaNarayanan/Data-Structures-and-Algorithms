@@ -14,25 +14,16 @@ Explanation: 372 is not an Armstrong number since 3^3 + 7^3 + 2^3 = 378
 // Solution 1 - Using Hard Coded Approach 
 class Solution {
     static boolean armstrongNumber(int n) {
-        // Extract the hundred's place digit
-        int ThirdPlace = n / 100;
-
-        // Extract the ten's place digit
-        int SecondPlace = (n / 10) % 10;
-
-        // Extract the unit's (one's) place digit
-        int FirstPlace = n % 10;
-
+        int ThirdPlace = n / 100;           // Extract the hundred's place digit
+        int SecondPlace = (n / 10) % 10;    // Extract the ten's place digit
+        int FirstPlace = n % 10;            // Extract the unit's (one's) place digit
         // Calculate the sum of the cubes of the digits
         int AN = (ThirdPlace * ThirdPlace * ThirdPlace) + 
                  (SecondPlace * SecondPlace * SecondPlace) + 
-                 (FirstPlace * FirstPlace * FirstPlace);
-
-        // Check if the sum of the cubes is equal to the original number
-        return (AN == n);
+                 (FirstPlace * FirstPlace * FirstPlace); 
+        return (AN == n);    // Check if the sum of the cubes is equal to the original number
     }
 }
-
 
 // Solution 2 - Using Iterative Approach
 class Solution {
