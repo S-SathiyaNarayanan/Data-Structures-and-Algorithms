@@ -1,4 +1,4 @@
-// Solution 1 -
+// Solution 1 - Formula Approach
 class Solution {
     long sumOfFifthPowers(long N) {
         long sum=((N*N)*((N+1)*(N+1))*((2*N*N)+(2*N)-1))/12;
@@ -6,7 +6,7 @@ class Solution {
     }
 }
 
-// Solution 2 - 
+// Solution 2 - Iterative Approach
 class Solution {
     long sumOfFifthPowers(long N) {
         long sum=0;
