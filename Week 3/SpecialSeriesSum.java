@@ -11,3 +11,9 @@ Explanation: 1 + (1+2) + (1+2+3) + (1+2+3+4) + (1+2+3+4+5)... = 220. Hence sum o
 *************************************************************************************************************/
 
 // Solution 1 - Formula Approach
+class Solution {
+    static long sumOfTheSeries(long n){
+        // code here
+        return (n*(n+1)*(n+2))/6;
+    }
+}
