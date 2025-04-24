@@ -1,3 +1,4 @@
+// Solution 2 - 
 class Solution {
     long sumOfFifthPowers(long N) {
         long sum=0;
