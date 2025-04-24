@@ -3,8 +3,7 @@
 Given a number N. Find the sum of fifth powers of natural numbers till N i.e. 1^5+2^5+3^5+..+N^5
 Input: N = 3
 Output: 276
-Explanation:
-The sum is calculated as 1^5+2^5+3^5 = 1+32+243 = 276.
+Explanation: The sum is calculated as 1^5+2^5+3^5 = 1+32+243 = 276.
 *************************************************************************************************************/
 
 // Solution 1 - Formula Approach
