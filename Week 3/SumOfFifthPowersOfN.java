@@ -1,6 +1,6 @@
 /*************************************************************************************************************
 🪙GeeksforGeeks - Sum of fifth powers of the first n natural numbers
-Given a number N.Find the sum of fifth powers of natural numbers till N i.e. 1^5+2^5+3^5+..+N^5
+Given a number N. Find the sum of fifth powers of natural numbers till N i.e. 1^5+2^5+3^5+..+N^5
 Input:
 N=3
 Output:
