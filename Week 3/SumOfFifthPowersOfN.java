@@ -6,6 +6,7 @@ class Solution {
         return sum;
     }
 }
+
 // Solution 2 - 
 class Solution {
     long sumOfFifthPowers(long N) {
