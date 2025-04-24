@@ -9,6 +9,14 @@ Input: n = 3
 Output: 1
 Explanation: 1 is the only Perfect Square less than 3. So, the Output is 1
 *************************************************************************************************************/
+
+// Solution 1 - Formula Approach √(n-1)
+class Solution {
+    static int countSquares(int n) {
+        return (int)Math.sqrt(n-1);
+    }
+}
+
 // Solution 2 - Iterative Approach
 class Solution {
     static int countSquares(int n) {
