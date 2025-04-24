@@ -9,7 +9,7 @@ Input: n = 3
 Output: 1
 Explanation: 1 is the only Perfect Square less than 3. So, the Output is 1
 *************************************************************************************************************/
-
+// Solution 2 - Iterative Approach
 class Solution {
     static int countSquares(int n) {
         int count=0;
