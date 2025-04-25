@@ -17,6 +17,8 @@ class Solution {
     }
 }
 
+// Solution 2 
+
 // Solution 3 - Brute Force Approach
 class Solution {
     static long sumOfTheSeries(long n){
