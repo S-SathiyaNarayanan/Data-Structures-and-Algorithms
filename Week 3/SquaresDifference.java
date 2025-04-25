@@ -1,3 +1,12 @@
+/*************************************************************************************************************
+🪙GeeksforGeeks - Squares Difference
+Given an integer N, find the absolute difference between sum of the squares of first N natural numbers and 
+square of sum of first N natural numbers
+Input: N = 3
+Output: 22
+Explanation: abs|(1^2 + 2^2 + 3^2) - (1 + 2 + 3)^2| = 22
+*************************************************************************************************************/
+
 class Solution {
     static long squaresDiff(int N){
         // Calculate the sum of squares of first N natural numbers using the formula: N(N+1)(2N+1)/6
