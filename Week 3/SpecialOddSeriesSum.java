@@ -11,4 +11,10 @@ Output: 55
 Explanation: 1 + (1+3) + (1+3+5) + (1+3+5+7) + (1+3+5+7+9) = 55. Hence sum of the series is 55.
 *************************************************************************************************************/
 
-// Solution 1 - 
+// Solution 1 - Formula Approach
+class Solution {
+    static long sumOfTheSeries(long n){
+        long sum=(n*(n+1)*(2*n+1))/6;
+        return sum;
+    }
+}
