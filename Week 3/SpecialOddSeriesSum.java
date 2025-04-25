@@ -19,4 +19,4 @@ class Solution {
     }
 }
 
-// Solution 2 - 
+// Solution 2 - Iterative Approach
