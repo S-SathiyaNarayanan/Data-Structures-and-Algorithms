@@ -20,7 +20,6 @@ class Solution {
 // Solution 2 - 
 class Solution {
     static long sumOfTheSeries(long n){
-        // code here
         int count=0;
         long sum=0;
         for(int i=1;i<=n;i++){
