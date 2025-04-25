@@ -10,7 +10,7 @@ Output: 220
 Explanation: 1 + (1+2) + (1+2+3) + (1+2+3+4) + (1+2+3+4+5)... = 220. Hence sum of the series is 220
 *************************************************************************************************************/
 
-// Solution 1 - Formula Approach
+// Solution 1 - Formula Approach ( Sum of the First n triangular numbers ) 
 class Solution {
     static long sumOfTheSeries(long n){
         return (n*(n+1)*(n+2))/6;
