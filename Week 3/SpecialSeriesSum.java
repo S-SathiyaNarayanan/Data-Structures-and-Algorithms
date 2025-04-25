@@ -18,6 +18,15 @@ class Solution {
 }
 
 // Solution 2 - Formula Approach ( Nth triangular number )
+class Solution {
+    static long sumOfTheSeries(long n){
+        long sum=0;
+        for(int i=1;i<=n;i++){
+            sum= sum+ (i*(i+1)/2);
+        }
+        return sum;
+    }
+}
 
 // Solution 3 - Brute Force Approach
 class Solution {
