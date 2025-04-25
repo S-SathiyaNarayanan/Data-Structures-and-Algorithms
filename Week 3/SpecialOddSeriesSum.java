@@ -18,3 +18,5 @@ class Solution {
         return sum;
     }
 }
+
+// Solution 2 - 
