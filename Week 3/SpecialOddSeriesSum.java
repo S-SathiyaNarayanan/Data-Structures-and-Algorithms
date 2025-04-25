@@ -22,7 +22,7 @@ class Solution {
 // Solution 2 - Iterative Approach
 class Solution {
     static long sumOfTheSeries(long n){
-        int sum=0;
+        long sum=0;
         for(int i=1;i<=n;i++){
             sum=sum+(i*i);
         }
