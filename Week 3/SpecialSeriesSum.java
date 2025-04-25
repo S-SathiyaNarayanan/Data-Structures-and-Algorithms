@@ -17,7 +17,7 @@ class Solution {
     }
 }
 
-// Solution 2 
+// Solution 2 - Formula Approach ( Nth triangular number )
 
 // Solution 3 - Brute Force Approach
 class Solution {
