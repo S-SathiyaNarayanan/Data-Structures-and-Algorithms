@@ -11,7 +11,7 @@ Output: 55
 Explanation: 1 + (1+3) + (1+3+5) + (1+3+5+7) + (1+3+5+7+9) = 55. Hence sum of the series is 55.
 *************************************************************************************************************/
 
-// Solution 1 - Formula Approach
+// Solution 1 - Formula Approach ( Sum of squares of the first n natural numbers )
 class Solution {
     static long sumOfTheSeries(long n){
         long sum=(n*(n+1)*(2*n+1))/6;
