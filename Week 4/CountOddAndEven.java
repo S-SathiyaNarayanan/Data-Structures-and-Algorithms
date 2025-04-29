@@ -7,7 +7,6 @@ Output: 3 2
 Explanation: There are 3 odd elements (1, 3, 5) and 2 even elements (2 and 4).
 *************************************************************************************************************/
 
-// User function Template for Java
 class Solution {
     public int[] countOddEven(int[] arr) {
         // Code here
