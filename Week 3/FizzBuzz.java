@@ -15,7 +15,6 @@ Output: [“1”, “2”, “Fizz”, “4”, “Buzz”, “Fizz”, “7”,
 class Solution {
     public static ArrayList<String> fizzBuzz(int n) {
         ArrayList<String> list = new ArrayList<>();    // Initialize an ArrayList to store the result
-
         for(int i = 1; i <= n; i++) {           // Loop from 1 to n (inclusive)
             if(i % 3 == 0 && i % 5 == 0) {
                 list.add("FizzBuzz");           // If divisible by both 3 and 5, add "FizzBuzz"
@@ -27,7 +26,6 @@ class Solution {
                 list.add(String.valueOf(i));    // If none of the above, add the number as a string
             }
         }
-
         return list;    // Return the completed list
     }
 }
