@@ -14,13 +14,14 @@ Explanation: Here among 2, 4, 6 only 2 divides 2446 evenly while 4 and 6 do not
 
 class Solution {
     static int evenlyDivides(int n) {
-        int ON=n;
-        int count=0;
-        while(n>0){
-            int LD=n%10;
-            if(LD!=0 && ON%LD==0) count++;
-            n=n/10;
+        int ON = n;             // Store the original number for divisibility checks
+        int count = 0;          // Initialize count of digits that divide the number evenly
+        while (n > 0) {
+            int LD = n % 10;                // Extract the last digit
+            if (LD != 0 && ON % LD == 0)    // Check if the digit is non-zero and divides the original number
+                count++;                    // Increment count if condition is satisfied
+            n = n / 10;                     // Remove the last digit
         }
-        return count;
+        return count;           // Return the final count
     }
 }
