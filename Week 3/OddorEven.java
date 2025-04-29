@@ -1,5 +1,5 @@
 /*************************************************************************************************************
-🪙GeeksforGeeks - Factorial
+🪙GeeksforGeeks - Odd or Even
 Given a positive integer, N. Find the factorial of N.
 Input: N = 5
 Output: 120
