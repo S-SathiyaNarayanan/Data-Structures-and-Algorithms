@@ -1,5 +1,5 @@
 /*************************************************************************************************************
-🪙GeeksforGeeks - Factorial
+🪙GeeksforGeeks - Count Digits
 Given a positive integer, N. Find the factorial of N.
 Input: N = 5
 Output: 120
