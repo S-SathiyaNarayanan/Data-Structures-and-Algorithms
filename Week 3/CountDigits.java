@@ -11,3 +11,16 @@ Input: n = 2446
 Output: 1
 Explanation: Here among 2, 4, 6 only 2 divides 2446 evenly while 4 and 6 do not
 *************************************************************************************************************/
+
+class Solution {
+    static int evenlyDivides(int n) {
+        int ON=n;
+        int count=0;
+        while(n>0){
+            int LD=n%10;
+            if(LD!=0 && ON%LD==0) count++;
+            n=n/10;
+        }
+        return count;
+    }
+}
