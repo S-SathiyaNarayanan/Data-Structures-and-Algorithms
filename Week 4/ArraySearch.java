@@ -7,3 +7,7 @@ Output: 2
 Explanation: There is one test case with array as [1, 2, 3 4] and element to be searched as 3. Since 3 is 
 present at index 2, the output is 2.
 *************************************************************************************************************/
+
+// Solution 1 
+
+// Solution 2
