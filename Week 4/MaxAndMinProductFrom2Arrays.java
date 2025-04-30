@@ -11,11 +11,11 @@ class Solution {
     public long findMultiplication(int[] arr1, int[] arr2) {
         int Max=arr1[0];    // Initialize Max with the first element of arr1
         int Min=arr2[0];    // Initialize Min with the first element of arr2
-        for(int i=0;i<arr1.length;i++){
-            if(arr1[i]>Max) Max=arr1[i];
-        }for(int j=0;j<arr2.length;j++){
+        for(int i=0;i<arr1.length;i++){     // Loop through arr1 to find the maximum element
+            if(arr1[i]>Max) Max=arr1[i];    
+        }for(int j=0;j<arr2.length;j++){    // Loop through arr2 to find the minimum element
             if(arr2[j]<Min) Min=arr2[j];
         }
-        return Max*Min;
+        return Max*Min;     // Return the product of the maximum from arr1 and minimum from arr2
     }
 }
