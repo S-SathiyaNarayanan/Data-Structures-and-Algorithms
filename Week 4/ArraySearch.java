@@ -9,6 +9,16 @@ present at index 2, the output is 2.
 *************************************************************************************************************/
 
 // Solution 1 
+class Solution {
+    static int search(int arr[], int x) {  
+        for (int i = 0; i < arr.length; i++) {    // Loop through each element of the array   
+            if (arr[i] == x) {                    // Check if the current element matches x       
+                return i;                         // Return the index of the first occurrence
+            }
+        } 
+        return -1;                                // If x is not found in the array, return -1
+    }
+}
 
 // Solution 2
 class Solution {
