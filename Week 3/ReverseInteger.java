@@ -8,15 +8,15 @@ Output: 321
 *************************************************************************************************************/
 class Solution {
     public int reverse(int x) {
-        int RN=0;
+        int RN=0;    // Reversed Number initialized to 0
         while(x!=0){
-            int LD=x%10;
-            x=x/10;
+            int LD=x%10;    // Extract the last digit
+            x=x/10;        // Remove the last digit from the original number
             if(RN>Integer.MAX_VALUE/10 || (RN==Integer.MAX_VALUE/10 && LD>8)) return 0;
             if(RN<Integer.MIN_VALUE/10 || (RN==Integer.MIN_VALUE/10 && LD<-8)) return 0;
-            RN=RN*10+LD;
+            RN=RN*10+LD;    // Append LD to the reversed number
         }
-        return RN;
+        return RN;    // Return the final Reversed Number
     }
 }
 
