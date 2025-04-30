@@ -11,3 +11,16 @@ present at index 2, the output is 2.
 // Solution 1 
 
 // Solution 2
+class Solution {
+    static int search(int arr[], int x) {
+        int index=-1;
+        for(int i=0;i<arr.length;i++){
+            if(x==arr[i]){
+                index=i;
+                break;
+            }
+        }
+        return index;
+    }
+}
+
