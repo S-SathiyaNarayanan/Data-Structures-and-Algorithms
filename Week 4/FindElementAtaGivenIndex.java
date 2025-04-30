@@ -1,9 +1,8 @@
 /*************************************************************************************************************
 🪙GeeksforGeeks - Find element at a given Index
-Given an array, arr of n integers, and an integer element x, find whether element x is present in the array. 
-Return the index of the first occurrence of x in the array, or -1 if it doesn't exist.
-Input: arr[] = [1, 2, 3, 4], x = 3
-Output: 2
-Explanation: There is one test case with array as [1, 2, 3 4] and element to be searched as 3. Since 3 is 
-present at index 2, the output is 2.
+Given an array arr of integers and an index key(0-based index). Your task is to return the element present at 
+the index key in the array.
+Input: key = 4 , arr = [10, 20, 30, 40, 50, 60, 70]
+Output: 50
+Explanation: The value of the arr[4] is 50 .
 *************************************************************************************************************/
