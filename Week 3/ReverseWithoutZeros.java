@@ -6,7 +6,19 @@ Assume the environment does not allow you to store 64-bit integers (signed or un
 Input : x = 123
 Output: 321
 *************************************************************************************************************/
-
+class Solution {
+    public int reverse(int x) {
+        int RN=0;
+        while(x!=0){
+            int LD=x%10;
+            x=x/10;
+            if(RN>Integer.MAX_VALUE/10 || (RN==Integer.MAX_VALUE/10 && LD>8)) return 0;
+            if(RN<Integer.MIN_VALUE/10 || (RN==Integer.MIN_VALUE/10 && LD<-8)) return 0;
+            RN=RN*10+LD;
+        }
+        return RN;
+    }
+}
 
 
 
