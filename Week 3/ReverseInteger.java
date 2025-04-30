@@ -12,6 +12,7 @@ class Solution {
         while(x!=0){
             int LD=x%10;    // Extract the last digit
             x=x/10;        // Remove the last digit from the original number
+            // Prevents overflow during the reversal of an integer by checking if the next step would push the result above Integer.MAX_VALUE (2,147,483,647)
             if(RN>Integer.MAX_VALUE/10 || (RN==Integer.MAX_VALUE/10 && LD>8)) return 0;
             // Prevents underflow during the reversal of an integer by checking if the next step would push the result below Integer.MIN_VALUE (-2,147,483,648)
             if(RN<Integer.MIN_VALUE/10 || (RN==Integer.MIN_VALUE/10 && LD<-8)) return 0;
