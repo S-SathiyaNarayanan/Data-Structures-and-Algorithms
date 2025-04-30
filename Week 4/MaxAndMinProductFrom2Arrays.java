@@ -6,3 +6,19 @@ Input : arr1 = [5, 7, 9, 3, 6, 2]  arr2 = [1, 2, 6, 1, 9]
 Output : 9
 Explanation: The max in arr1 is 9. The min element in arr2 is 1. The product is 9*1 = 9.
 *************************************************************************************************************/
+
+class Solution {
+    // Function to find the maximum element from array arr1 and
+    // the minimum element from array arr2 and return their product.
+    public long findMultiplication(int[] arr1, int[] arr2) {
+        // code here
+        int Max=arr1[0];
+        int Min=arr2[0];
+        for(int i=0;i<arr1.length;i++){
+            if(arr1[i]>Max) Max=arr1[i];
+        }for(int j=0;j<arr2.length;j++){
+            if(arr2[j]<Min) Min=arr2[j];
+        }
+        return Max*Min;
+    }
+}
