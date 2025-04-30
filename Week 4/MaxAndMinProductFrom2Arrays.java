@@ -9,7 +9,6 @@ Explanation: The max in arr1 is 9. The min element in arr2 is 1. The product is 
 
 class Solution {
     public long findMultiplication(int[] arr1, int[] arr2) {
-        // code here
         int Max=arr1[0];
         int Min=arr2[0];
         for(int i=0;i<arr1.length;i++){
