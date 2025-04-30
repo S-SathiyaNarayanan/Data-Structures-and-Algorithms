@@ -12,9 +12,7 @@ Skip fourth element: 4
 *************************************************************************************************************/
 
 class Solution {
-    // function to print alternate elements of an array
     public ArrayList<Integer> getAlternates(int arr[]) {
-        // Code Here
         ArrayList<Integer> arr2=new ArrayList<>();
         for(int i=0;i<arr.length;i=i+2){
             arr2.add(arr[i]);
