@@ -8,8 +8,6 @@ Explanation: The max in arr1 is 9. The min element in arr2 is 1. The product is 
 *************************************************************************************************************/
 
 class Solution {
-    // Function to find the maximum element from array arr1 and
-    // the minimum element from array arr2 and return their product.
     public long findMultiplication(int[] arr1, int[] arr2) {
         // code here
         int Max=arr1[0];
