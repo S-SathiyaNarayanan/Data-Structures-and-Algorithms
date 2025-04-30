@@ -1,5 +1,5 @@
 /*************************************************************************************************************
-🪙GeeksforGeeks - Find element at a given Index
+🪙GeeksforGeeks - Max and Min Product from 2 Arrays
 Given an array arr of integers and an index key(0-based index). Your task is to return the element present at 
 the index key in the array.
 Input: key = 4 , arr = [10, 20, 30, 40, 50, 60, 70]
