@@ -6,3 +6,9 @@ Input: key = 4 , arr = [10, 20, 30, 40, 50, 60, 70]
 Output: 50
 Explanation: The value of the arr[4] is 50 .
 *************************************************************************************************************/
+
+class Solution {
+    public static int findElementAtIndex(int key, int[] arr) {
+        return arr[key];
+    }
+}
