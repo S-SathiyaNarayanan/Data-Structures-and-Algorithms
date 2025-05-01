@@ -14,11 +14,9 @@ class Solution {
         if (arr == null || arr.length < 2) {
             return new int[] { -1 };
         }
-        
         // Sentinels for smallest and second smallest.
         int min = Integer.MAX_VALUE;
         int second = Integer.MAX_VALUE;
-        
         // Single-pass scan.
         for (int x : arr) {
             if (x < min) {
@@ -28,7 +26,6 @@ class Solution {
                 second = x;
             }
         }
-        
         // If second never updated, return -1.
         return (second == Integer.MAX_VALUE)
             ? new int[] { -1 }
