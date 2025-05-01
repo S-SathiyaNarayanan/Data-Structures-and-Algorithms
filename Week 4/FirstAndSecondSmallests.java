@@ -21,6 +21,9 @@ class Solution {
                 second = num;
             }
         }
-        return second == Integer.MAX_VALUE ? new int[]{-1} : new int[]{first, second};
+        return second == Integer.MAX_VALUE
+            ? new int[]{-1}
+            : new int[]{first, second};
     }
 }
+
