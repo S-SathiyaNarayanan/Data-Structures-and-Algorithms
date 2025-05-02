@@ -1,5 +1,14 @@
 import java.util.Scanner;
+import java.util.Arrays;
 public class BasicsOfArray{
+    
+    // Recursive method to print array elements starting from given index
+    static void printArrayUserDefinedMethod(int[] arr, int index) {
+        if (index >= arr.length) return;                // Base case: stop recursion when index reaches array length
+        System.out.print(arr[index]+" ");               // Print current element
+        printArrayUserDefinedMethod(arr, index + 1);    // Recursive call with next index
+    }
+    
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         
