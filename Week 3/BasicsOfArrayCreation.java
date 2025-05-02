@@ -6,9 +6,11 @@ public class BasicsOfArrayCreation{
         // Two-step Array Declaration and Initialization
         int[] Array1;          // Declare an array reference variable
         Array1= new int[5];    // Create array object with 5 default-initialized integers (0s)
+                               // Useful when you need to declare the array first and initialize it later
 
         // Single-line Array Declaration and Initialization
         int[] Array2= new int[5];    // Combine declaration and creation in one line
+                                     // Combines declaration and initialization in one line. Functionally identical to the two-step approach
         
         // Compact Array Initialization ( Size automatically determined )
         int[] Array3= { 11 , 12 , 13 , 14 , 15 };    // Array creation with explicit initial values
