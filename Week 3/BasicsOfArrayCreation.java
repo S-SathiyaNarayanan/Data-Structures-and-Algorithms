@@ -16,7 +16,7 @@ public class BasicsOfArrayCreation{
         int[] Array3= { 11 , 12 , 13 , 14 , 15 };    // Array creation with explicit initial values
                                                      // Declares, allocates, and initializes the array in one step
         
-        // Explicit Array Initialization with values
+        // Explicit Inline Array Initialization with values
         int[] Array4= new int[]{ 16 , 17 , 18 , 19 , 20 };     // Do not specify the size in []; it is inferred from the elements
         
         // Runtime-sized Array Initialization
