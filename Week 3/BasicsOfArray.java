@@ -37,6 +37,11 @@ public class BasicsOfArray{
         // Runtime-sized Array Initialization
         int n=sc.nextInt();          // Read size from user
         int[] Array5= new int[n];    // Array size determined at runtime
+        // Loop to populate array with user input values
+        for(int i=0;i<n;i++){
+            System.out.print("Enter the value of "+i+"th Index: ");
+            Array5[i]=sc.nextInt();
+        }
 
         // ------------------------------------Important Reminders------------------------------------------------
         // When arrays are created without explicit values, elements are initialized to their type’s default value,
