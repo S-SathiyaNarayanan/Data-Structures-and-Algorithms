@@ -1,37 +1,24 @@
-public class ArrayDeclarationDemo {
-    public static void main(String[] args) {
-        // 1. Declaration and then initialization
-        int[] array1; // declaration
-        array1 = new int[3]; // initialization
-        array1[0] = 5;
-        array1[1] = 10;
-        array1[2] = 15;
+import java.util.Scanner;
+public class BasicsOfArrayCreation{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
         
-        // 2. Declaration and initialization in one line using 'new'
-        int[] array2 = new int[] {20, 25, 30};
+        // Two line Array Declaration and Initialization
+        int[] Array1;          // Declare an array of integers
+        Array1= new int[5];    // Allocate memory for 5 integers
+        
+        // One line Array Declaration and Initialization
+        int[] Array2= new int[5];
+        
+        // Inline Array Initialization
+        int[] Array3= { 11 , 12 , 13 , 14 , 15 };
+        
+        // Explicit Array Creation with Initial Values
+        int[] Array4= new int[]{ 16 , 17 , 18 , 19 , 20 };
+        
+        // Runtime-sized Array Initialization
+        int n=sc.nextInt();
+        int[] Array5= new int[n];
 
-        // 3. Declaration and initialization using shorthand
-        int[] array3 = {35, 40, 45};
-
-        // Print sizes using .length
-        System.out.println("Size of array1: " + array1.length);
-        System.out.println("Size of array2: " + array2.length);
-        System.out.println("Size of array3: " + array3.length);
-
-        // Print all arrays
-        System.out.println("\nArray1 elements:");
-        for (int i = 0; i < array1.length; i++) {
-            System.out.println(array1[i]);
-        }
-
-        System.out.println("\nArray2 elements:");
-        for (int i = 0; i < array2.length; i++) {
-            System.out.println(array2[i]);
-        }
-
-        System.out.println("\nArray3 elements:");
-        for (int i = 0; i < array3.length; i++) {
-            System.out.println(array3[i]);
-        }
     }
 }
