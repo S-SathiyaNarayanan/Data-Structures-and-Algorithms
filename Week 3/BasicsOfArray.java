@@ -40,7 +40,7 @@ public class BasicsOfArray{
         // Loop to populate array with user input values
         for(int i=0;i<n;i++){
             System.out.print("Enter the value of "+i+"th Index: ");
-            Array5[i]=sc.nextInt();
+            Array5[i]=sc.nextInt();    // Accept elements from user
         }
 
         // ------------------------------------Important Reminders------------------------------------------------
