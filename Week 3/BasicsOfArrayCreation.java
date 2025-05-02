@@ -23,5 +23,13 @@ public class BasicsOfArrayCreation{
         int n=sc.nextInt();          // Read size from user
         int[] Array5= new int[n];    // Array size determined at runtime
 
+        // ------------------------------------Important Reminders------------------------------------------------
+        // When arrays are created without explicit values, elements are initialized to their type’s default value,
+        // 0 for numeric types (int, double, etc...)
+        // false for boolean
+        // null for objects (e.g., String[])
+        // Once array is created, an array’s size cannot be changed
+        
+
     }
 }
