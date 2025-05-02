@@ -3,17 +3,17 @@ public class BasicsOfArrayCreation{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         
-        // Two line Array Declaration and Initialization
-        int[] Array1;          // Declare an array of integers
-        Array1= new int[5];    // Allocate memory for 5 integers
+        // Two-step Array Declaration and Initialization
+        int[] Array1;          // Declare an array reference variable
+        Array1= new int[5];    // Create array object with 5 default-initialized integers (0s)
+
+        // Single-line Array Declaration and Initialization
+        int[] Array2= new int[5];    // Combine declaration and creation in one line
         
-        // One line Array Declaration and Initialization
-        int[] Array2= new int[5];    // Combined declaration & initialization
+        // Compact Array Initialization (size inferred)
+        int[] Array3= { 11 , 12 , 13 , 14 , 15 };    // Array creation with explicit initial values
         
-        // Inline Array Initialization
-        int[] Array3= { 11 , 12 , 13 , 14 , 15 };
-        
-        // Explicit Array Creation with Initial Values
+        // Explicit Array Initialization
         int[] Array4= new int[]{ 16 , 17 , 18 , 19 , 20 };
         
         // Runtime-sized Array Initialization
