@@ -28,8 +28,9 @@ public class BasicsOfArrayCreation{
         // 0 for numeric types (int, double, etc...)
         // false for boolean
         // null for objects (e.g., String[])
-        // Once array is created, an array’s size cannot be changed
+        // Size cannot be specified in array declaration
+        // Arrays are objects, and their size is immutable after creation
+        // Arrays are objects in Java. Variables like Array1 or Array2 are references to the array object in memory
         
-
     }
 }
