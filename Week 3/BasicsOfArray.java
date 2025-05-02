@@ -32,6 +32,8 @@ public class BasicsOfArray{
         // Arrays are objects, and their size is immutable after creation
         // Arrays are objects in Java. Variables like Array1 or Array2 are references to the array object in memory
         // If you're returning an array directly from a method, and you're creating it inline, you must use new " int[] "
+        // System.out.println(Array1); → prints memory address, not the elements
+        // Arrays.toString(Array1) → prints entire array as [1, 2, 3, 4, 5] not one-by-one elements
         
     }
 }
