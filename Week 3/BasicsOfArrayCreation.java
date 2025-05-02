@@ -9,8 +9,8 @@ public class BasicsOfArrayCreation{
                                // Useful when you need to declare the array first and initialize it later
 
         // Single-line Array Declaration and Initialization
-        int[] Array2= new int[5];    // Combine declaration and creation in one line
-                                     // Combines declaration and initialization in one line. Functionally identical to the two-step approach
+        int[] Array2= new int[5];    // Combines declaration and initialization in one line
+                                     // Functionally identical to the two-step approach
         
         // Inline Array Initialization ( Size automatically determined )
         int[] Array3= { 11 , 12 , 13 , 14 , 15 };    // Array creation with explicit initial values
@@ -31,7 +31,7 @@ public class BasicsOfArrayCreation{
         // Size cannot be specified in array declaration
         // Arrays are objects, and their size is immutable after creation
         // Arrays are objects in Java. Variables like Array1 or Array2 are references to the array object in memory
-        // When returning an array directly from a method, you must use the new keyword " new int[] " to instantiate the array. 
+        // If you're returning an array directly from a method, and you're creating it inline, you must use new " int[] "
         
     }
 }
