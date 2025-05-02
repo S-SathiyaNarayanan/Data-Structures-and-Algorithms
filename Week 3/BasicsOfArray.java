@@ -104,6 +104,7 @@ public class BasicsOfArray{
         // If you're returning an array directly from a method, and you're creating it inline, you must use new " int[] "
         // System.out.println(Array1); → prints memory address, not the elements
         // Arrays.toString(Array1) → prints entire array as [1, 2, 3, 4, 5] not one-by-one elements
+        // for-each loop does not allow early termination or skipping specific indexes unless you use conditions inside the loop
         
     }
 }
