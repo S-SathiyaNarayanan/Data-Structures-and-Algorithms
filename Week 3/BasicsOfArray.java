@@ -34,6 +34,7 @@ public class BasicsOfArray{
         int[] Array4= new int[]{ 16 , 17 , 18 , 19 , 20 };     // Do not specify the size in [] it is inferred from the elements
         
         // Runtime-sized Array Initialization
+        System.out.print("Enter the size of the Array 5: ");
         int n=sc.nextInt();          // Read size from user
         int[] Array5= new int[n];    // Array size determined at runtime
         // Loop to populate array with user input values
