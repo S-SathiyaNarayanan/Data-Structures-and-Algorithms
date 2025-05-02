@@ -19,5 +19,5 @@ In Java, both DataType[] arrayName; and DataType arrayName[]; are valid ways to 
 garbage value in no value index
 
 BasicsOfArray.java
-PrintElementsOfArray.java
-ArrayUserInput.java
+
+
