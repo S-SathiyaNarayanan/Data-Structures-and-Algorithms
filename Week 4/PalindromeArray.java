@@ -1,8 +1,10 @@
 /*************************************************************************************************************
 🪙GeeksforGeeks - Palindrome Array
-Given two arrays of arr1 and arr2, the task is to calculate the product of the maximum element of the first 
-array arr1, and minimum element of the second array arr2.
-Input : arr1 = [5, 7, 9, 3, 6, 2]  arr2 = [1, 2, 6, 1, 9]
-Output : 9
-Explanation: The max in arr1 is 9. The min element in arr2 is 1. The product is 9*1 = 9.
+Given an array arr, the task is to find whether the arr is palindrome or not. If the arr is palindrome then 
+return true else return false.
+An array is said to be palindrome if its reverse array matches the original array. 
+Input: arr = [1, 2, 3, 4, 5]
+Output: false
+Explanation: Here we can see we have [1, 2, 3, 4, 5] if we reverse it we find [5, 4, 3, 2, 1] which is the not
+same as before. So, the answer false.
 *************************************************************************************************************/
