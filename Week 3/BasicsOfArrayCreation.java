@@ -14,7 +14,7 @@ public class BasicsOfArrayCreation{
         int[] Array3= { 11 , 12 , 13 , 14 , 15 };    // Array creation with explicit initial values
         
         // Explicit Array Initialization with values
-        int[] Array4= new int[]{ 16 , 17 , 18 , 19 , 20 };
+        int[] Array4= new int[]{ 16 , 17 , 18 , 19 , 20 };     // Do not specify the size in []; it is inferred from the elements
         
         // Runtime-sized Array Initialization
         int n=sc.nextInt();          // Read size from user
