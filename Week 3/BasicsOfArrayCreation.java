@@ -12,7 +12,7 @@ public class BasicsOfArrayCreation{
         int[] Array2= new int[5];    // Combine declaration and creation in one line
                                      // Combines declaration and initialization in one line. Functionally identical to the two-step approach
         
-        // Compact Array Initialization ( Size automatically determined )
+        // Inline Array Initialization ( Size automatically determined )
         int[] Array3= { 11 , 12 , 13 , 14 , 15 };    // Array creation with explicit initial values
                                                      // Declares, allocates, and initializes the array in one step
         
