@@ -8,7 +8,7 @@ public class BasicsOfArrayCreation{
         Array1= new int[5];    // Allocate memory for 5 integers
         
         // One line Array Declaration and Initialization
-        int[] Array2= new int[5];
+        int[] Array2= new int[5];    // Combined declaration & initialization
         
         // Inline Array Initialization
         int[] Array3= { 11 , 12 , 13 , 14 , 15 };
@@ -17,8 +17,8 @@ public class BasicsOfArrayCreation{
         int[] Array4= new int[]{ 16 , 17 , 18 , 19 , 20 };
         
         // Runtime-sized Array Initialization
-        int n=sc.nextInt();
-        int[] Array5= new int[n];
+        int n=sc.nextInt();          // Read size from user
+        int[] Array5= new int[n];    // Array size determined at runtime
 
     }
 }
