@@ -43,6 +43,55 @@ public class BasicsOfArray{
             Array5[i]=sc.nextInt();    // Accept elements from user
         }
 
+        // Display Array1 elements before modification
+        System.out.print("\nArray 1 Elements Before Modification");
+        System.out.print("\nArray 1 Elements: ");
+        System.out.print(Array1[0]+" ");
+        System.out.print(Array1[1]+" ");
+        System.out.print(Array1[2]+" ");
+        System.out.print(Array1[3]+" ");
+        System.out.print(Array1[4]+" ");
+        
+        // Modifying Array1 elements with even numbers
+        Array1[0]=2;
+        Array1[1]=4;
+        Array1[2]=6;
+        Array1[3]=8;
+        Array1[4]=10;
+        
+        // Display Array1 elements after modification
+        System.out.print("\n\nArray 1 Elements After Modification");
+        System.out.print("\nArray 1 Elements: ");
+        System.out.print(Array1[0]+" ");
+        System.out.print(Array1[1]+" ");
+        System.out.print(Array1[2]+" ");
+        System.out.print(Array1[3]+" ");
+        System.out.print(Array1[4]+" ");
+        
+        // Display Array2 elements
+        System.out.print("\n\nArray 2 Elements: ");
+        System.out.print(Array2[0]+" ");
+        System.out.print(Array2[1]+" ");
+        System.out.print(Array2[2]+" ");
+        System.out.print(Array2[3]+" ");
+        System.out.print(Array2[4]+" ");
+        
+        // Display Array3 elements using for loop
+        System.out.print("\n\nArray 3 Elements: ");
+        for(int i=0;i<Array3.length;i++){
+            System.out.print(Array3[i]+" ");
+        }
+        
+        // Display Array4 elements using for-each loop
+        System.out.print("\n\nArray 4 Elements: ");
+        for(int i: Array4){
+            System.out.print(i+" ");
+        }
+        
+        // Display Array5 elements using the recursive method
+        System.out.print("\n\nArray 5 Elements: ");
+        printArrayUserDefinedMethod(Array5,0);
+       
         // ------------------------------------Important Reminders------------------------------------------------
         // When arrays are created without explicit values, elements are initialized to their type’s default value,
         // 0 for numeric types (int, double, etc...)
