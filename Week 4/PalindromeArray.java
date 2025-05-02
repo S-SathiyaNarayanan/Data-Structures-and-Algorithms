@@ -11,10 +11,12 @@ same as before. So, the answer false.
 
 class Solution {
     public static boolean isPerfect(int[] arr) {
-        int n=arr.length;
-        for(int i=0;i<n/2;i++){
-            if(arr[i]!=arr[n-i-1]) return false; 
+        int n = arr.length;  // Get the length of the array
+        for (int i = 0; i < n / 2; i++) {  // Iterate from start to the middle of the array
+            if (arr[i] != arr[n - i - 1]) // Compare element from start with corresponding element from end
+                return false;  // If any pair doesn't match, array is not a palindrome
         }
-        return true;
+        return true;  // If all pairs match, array is a palindrome (perfect)
     }
 }
+
