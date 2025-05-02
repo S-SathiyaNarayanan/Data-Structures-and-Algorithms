@@ -31,7 +31,7 @@ public class BasicsOfArrayCreation{
         // Size cannot be specified in array declaration
         // Arrays are objects, and their size is immutable after creation
         // Arrays are objects in Java. Variables like Array1 or Array2 are references to the array object in memory
-        // when returning an array directly from a method, you must use the new keyword " new int[] " to instantiate the array. 
+        // When returning an array directly from a method, you must use the new keyword " new int[] " to instantiate the array. 
         
     }
 }
