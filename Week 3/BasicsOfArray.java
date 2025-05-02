@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Arrays;
 public class BasicsOfArray{
     
     // Recursive method to print array elements starting from given index
