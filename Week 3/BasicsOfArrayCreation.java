@@ -10,10 +10,10 @@ public class BasicsOfArrayCreation{
         // Single-line Array Declaration and Initialization
         int[] Array2= new int[5];    // Combine declaration and creation in one line
         
-        // Compact Array Initialization (size inferred)
+        // Compact Array Initialization ( Size automatically determined )
         int[] Array3= { 11 , 12 , 13 , 14 , 15 };    // Array creation with explicit initial values
         
-        // Explicit Array Initialization
+        // Explicit Array Initialization with values
         int[] Array4= new int[]{ 16 , 17 , 18 , 19 , 20 };
         
         // Runtime-sized Array Initialization
