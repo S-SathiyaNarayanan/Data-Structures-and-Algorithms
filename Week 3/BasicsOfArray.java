@@ -43,21 +43,22 @@ public class BasicsOfArray{
             Array5[i]=sc.nextInt();    // Accept elements from user
         }
 
-        // Display Array1 elements before modification
+        // Display Array1 elements before modification (default 0 values)
         System.out.print("\nArray 1 Elements Before Modification");
         System.out.print("\nArray 1 Elements: ");
+        // Manual element printing using direct index access
         System.out.print(Array1[0]+" ");
         System.out.print(Array1[1]+" ");
         System.out.print(Array1[2]+" ");
         System.out.print(Array1[3]+" ");
         System.out.print(Array1[4]+" ");
         
-        // Modifying Array1 elements with even numbers
-        Array1[0]=2;
-        Array1[1]=4;
+        // Modifying Array1 elements with random numbers
+        Array1[0]=1;
+        Array1[1]=3;
         Array1[2]=6;
-        Array1[3]=8;
-        Array1[4]=10;
+        Array1[3]=10;
+        Array1[4]=15;
         
         // Display Array1 elements after modification
         System.out.print("\n\nArray 1 Elements After Modification");
@@ -68,7 +69,7 @@ public class BasicsOfArray{
         System.out.print(Array1[3]+" ");
         System.out.print(Array1[4]+" ");
         
-        // Display Array2 elements
+        // Display Array2 using manual element access
         System.out.print("\n\nArray 2 Elements: ");
         System.out.print(Array2[0]+" ");
         System.out.print(Array2[1]+" ");
@@ -76,7 +77,7 @@ public class BasicsOfArray{
         System.out.print(Array2[3]+" ");
         System.out.print(Array2[4]+" ");
         
-        // Display Array3 elements using for loop
+        // Display Array3 elements using traditional for loop
         System.out.print("\n\nArray 3 Elements: ");
         for(int i=0;i<Array3.length;i++){
             System.out.print(Array3[i]+" ");
@@ -90,7 +91,7 @@ public class BasicsOfArray{
         
         // Display Array5 elements using the recursive method
         System.out.print("\n\nArray 5 Elements: ");
-        printArrayUserDefinedMethod(Array5,0);
+        printArrayUserDefinedMethod(Array5,0);    // Start recursion from index 0
        
         // ------------------------------------Important Reminders------------------------------------------------
         // When arrays are created without explicit values, elements are initialized to their type’s default value,
