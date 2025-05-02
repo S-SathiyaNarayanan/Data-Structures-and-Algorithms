@@ -17,7 +17,7 @@ public class BasicsOfArrayCreation{
                                                      // Declares, allocates, and initializes the array in one step
         
         // Explicit Inline Array Initialization with values
-        int[] Array4= new int[]{ 16 , 17 , 18 , 19 , 20 };     // Do not specify the size in [] it is inferred from the elements
+        int[] Array4= new int[]{ 16 , 17 , 18 , 19 , 20 };     // Do not specify the size in array initializer block [] it is inferred from the elements
         
         // Runtime-sized Array Initialization
         int n=sc.nextInt();          // Read size from user
