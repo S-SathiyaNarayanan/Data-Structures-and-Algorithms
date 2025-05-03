@@ -1,12 +1,14 @@
 /*************************************************************************************************************
-🪙GeeksforGeeks - Find element at a given Index
-Given an array arr of integers and an index key(0-based index). Your task is to return the element present at 
-the index key in the array.
-Input: key = 4 , arr = [10, 20, 30, 40, 50, 60, 70]
-Output: 50
-Explanation: The value of the arr[4] is 50 .
+🪙GeeksforGeeks - Sieve of Eratosthenes
+Given a positive integer n, calculate and return all prime numbers less than or equal to n using the Sieve of
+Eratosthenes algorithm.
+A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.
+Input : n = 10
+Output: 2 3 5 7
+Explanation: Prime numbers less than equal to 10 are 2 3 5 and 7
 *************************************************************************************************************/
 
+// Solution 1 - Sieve of Eratosthenes
 class Solution {
     static ArrayList<Integer> sieveOfEratosthenes(int n) {
         ArrayList<Integer> PN = new ArrayList<>();
