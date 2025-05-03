@@ -25,7 +25,7 @@ public class Main {
         // Sieve of Eratosthenes
         for (int i = 2; i * i <= n; i++) {
             if (arr[i]) {
-                for (int j = i * i; j <= n; j += i) {
+                for (int j = i * i; j <= n; j = j + i) {
                     arr[j] = false;
                 }
             }
@@ -33,7 +33,7 @@ public class Main {
         // Sum primes in range [L, R]
         for (int i = L; i <= R; i++) {
             if (arr[i]) {
-                sum += i;
+                sum = sum + i;
             }
         }
         System.out.println("Sum = " + sum);
