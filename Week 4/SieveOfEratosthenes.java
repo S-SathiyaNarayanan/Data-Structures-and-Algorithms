@@ -8,7 +8,7 @@ Output: 2 3 5 7
 Explanation: Prime numbers less than equal to 10 are 2 3 5 and 7
 *************************************************************************************************************/
 
-// Solution 1 - Sieve of Eratosthenes
+// Solution 1 - Sieve of Eratosthenes O(nloglogn)
 class Solution {
     static ArrayList<Integer> sieveOfEratosthenes(int n) {
         ArrayList<Integer> PN = new ArrayList<>();
