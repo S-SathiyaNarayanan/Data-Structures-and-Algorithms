@@ -4,4 +4,5 @@ inclusive.
 Input : L = 10, R = 20
 Output : Sum = 60
 Prime numbers between [10, 20] are: 11, 13, 17, 19
+Note: Use sieve of eratosthenes to solve the problem
 *************************************************************************************************************/
