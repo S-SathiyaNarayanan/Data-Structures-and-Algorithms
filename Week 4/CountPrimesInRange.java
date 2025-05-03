@@ -9,7 +9,6 @@ Explanation: Prime numbers less than equal to 10 are 2 3 5 and 7
 *************************************************************************************************************/
 class Solution {
     int countPrimes(int L, int R) {
-        // code here
         int count=0;
         int n=R;
         if(n<2) return count;
