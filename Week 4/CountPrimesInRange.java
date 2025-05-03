@@ -7,6 +7,7 @@ Input : n = 10
 Output: 2 3 5 7
 Explanation: Prime numbers less than equal to 10 are 2 3 5 and 7
 *************************************************************************************************************/
+
 class Solution {
     int countPrimes(int L, int R) {
         int count=0;
