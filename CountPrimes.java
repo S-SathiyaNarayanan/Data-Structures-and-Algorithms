@@ -1,9 +1,9 @@
 /*************************************************************************************************************
 💎LeetCode 204 - Count Primes
 Given an integer n, return the number of prime numbers that are strictly less than n
-Input : n = 20
-Output: [“1”, “2”, “Fizz”, “4”, “Buzz”, “Fizz”, “7”, “8”, “Fizz”, “Buzz”, “11”, “Fizz”, “13”, “14”, “FizzBuzz”,
-“16”, “17”, “Fizz”, “19”, “Buzz”]
+Input: n = 10
+Output: 4
+Explanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7
 *************************************************************************************************************/
 
 class Solution {
