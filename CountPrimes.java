@@ -1,5 +1,5 @@
 /*************************************************************************************************************
-💎LeetCode 412 - Fizz Buzz
+💎LeetCode 204 - Fizz Buzz
 Fizz Buzz Problem involves that given an integer n, for every integer 0 < i <= n, the task is to output,
 "FizzBuzz" if i is divisible by 3 and 5,
 "Fizz" if i is divisible by 3,
