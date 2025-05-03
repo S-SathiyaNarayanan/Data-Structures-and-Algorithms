@@ -1,8 +1,7 @@
 /*************************************************************************************************************
-🪙GeeksforGeeks - Find element at a given Index
-Given an array arr of integers and an index key(0-based index). Your task is to return the element present at 
-the index key in the array.
-Input: key = 4 , arr = [10, 20, 30, 40, 50, 60, 70]
-Output: 50
-Explanation: The value of the arr[4] is 50 .
+Given a range [L, R]. The task is to find the sum of all the prime numbers in the given range from L to R both
+inclusive.
+Input : L = 10, R = 20
+Output : Sum = 60
+Prime numbers between [10, 20] are: 11, 13, 17, 19
 *************************************************************************************************************/
