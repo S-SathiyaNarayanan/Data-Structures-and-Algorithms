@@ -4,7 +4,7 @@ public class BasicRecursion {
             return;                   // Base case: when n reaches 0, stop recursion
         } else {
             System.out.println(n);    // Print the current value of n
-            printNumbers(n - 1);      // Recursive call
+            printNumbers(n - 1);      // Recursive call with n decremented by 1
         }
     }
     public static void main(String[] args) {
