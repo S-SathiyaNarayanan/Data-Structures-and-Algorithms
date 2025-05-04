@@ -8,6 +8,6 @@ public class BasicRecursion {
         }
     }
     public static void main(String[] args) {
-        printNumbers(5); 
+        printNumbers(5);              // Initial call to start recursion with n = 5
     }
 }
