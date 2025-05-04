@@ -3,7 +3,7 @@ public class BasicRecursion {
         if (n == 0) {
             return;                   // Base case: when n reaches 0, stop recursion
         } else {
-            System.out.println(n);    // Print the current value of n
+            System.out.print(n+" ");    // Print the current value of n
             printNumbers(n - 1);      // Recursive call with n decremented by 1
         }
     }
