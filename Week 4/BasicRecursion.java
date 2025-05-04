@@ -1,7 +1,7 @@
 public class BasicRecursion {
     public static void printNumbers(int n) {    // Recursive method to print numbers from n to 1
         if (n == 0) {
-            return;                   // Base case: stop recursion
+            return;                   // Base case: when n reaches 0, stop recursion
         } else {
             System.out.println(n);    // Print current number
             printNumbers(n - 1);      // Recursive call
