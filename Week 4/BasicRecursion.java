@@ -1,5 +1,5 @@
 public class BasicRecursion {
-    public static void printNumbers(int n) {
+    public static void printNumbers(int n) {    // Recursive method to print numbers from n to 1
         if (n == 0) {
             return;                   // Base case: stop recursion
         } else {
