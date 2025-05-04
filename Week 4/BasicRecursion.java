@@ -12,6 +12,6 @@ public class BasicRecursion {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the value of n: ");
         int n=sc.nextInt();
-        printNumbers(n);                // Initial call to start recursion with n = 5
+        printNumbers(n);                // Initial call to start recursion with value of n 
     }
 }
