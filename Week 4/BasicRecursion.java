@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main {
+public class BasicRecursion {
     public static void printNumbers(int n) {    // Recursive method to print numbers from n to 1
         if (n == 0) {
             return;                   // Base case: when n reaches 0, stop recursion
