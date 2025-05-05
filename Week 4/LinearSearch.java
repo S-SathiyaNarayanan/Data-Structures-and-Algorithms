@@ -1,3 +1,4 @@
+// Linear Search - Time Complexity O(n) , Space Complexity O(1)
 import java.util.Scanner;
 public class Main{
     static int LinearSearch(int[] array,int value){    // Method to perform linear search on an array
