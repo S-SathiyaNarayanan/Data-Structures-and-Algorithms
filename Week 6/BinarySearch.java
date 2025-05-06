@@ -10,20 +10,17 @@ Explanation: 9 exists in nums and its index is 4
 
 class Solution {
     public int search(int[] nums, int target) {
-        int Left = 0; // Left is the index at the start of the array
-        int Right = nums.length - 1; // Right is the index at the end of the array
-
-        while (Left <= Right) { // Repeat the steps while the search range is valid
-            int Mid = Left + ((Right - Left) / 2); // Find the middle index between Left and Right
-
-            if (nums[Mid] == target) return Mid; // If value at middle index is target, return Mid
-            else if (nums[Mid] < target) 
-                Left = Mid + 1; // If value at Mid is smaller than target, search in the right half
-            else 
-                Right = Mid - 1; // If value at Mid is larger than target, search in the left half
+        int Left = 0;                   // Left pointer is the index at the start of the array
+        int Right = nums.length - 1;    // Right pointer is the index at the end of the array
+        while (Left <= Right) {                       // Repeat the steps while the search range is valid
+            int Mid = Left + ((Right - Left) / 2);    // Find the middle index between Left and Right ( Calculate mid index to prevent integer overflow )
+            if (nums[Mid] == target) return Mid;      // If value at middle index is target, return Mid
+            else if (nums[Mid] < target)              // If value at Mid is smaller than target 
+                Left = Mid + 1;                       // search in the right half ( move left pointer )
+            else                                      // If value at Mid is larger than target 
+                Right = Mid - 1;                      // search in the left half ( move right pointer )
         }
-
-        return -1; // If target is not found in the array, return -1
+        return -1;    // If target is not found in the array, return -1
     }
 }
 
