@@ -10,16 +10,22 @@ Explanation: 9 exists in nums and its index is 4
 
 class Solution {
     public int search(int[] nums, int target) {
-        int L=0;
-        int R=nums.length-1;
-        while(L<=R){
-            int mid=L+((R-L)/2);
-            if(nums[mid]==target) return mid;
-            else if(nums[mid]<target) L=mid+1;
-            else R=mid-1;
+        int Left = 0; // Left is the index at the start of the array
+        int Right = nums.length - 1; // Right is the index at the end of the array
+
+        while (Left <= Right) { // Repeat the steps while the search range is valid
+            int Mid = Left + ((Right - Left) / 2); // Find the middle index between Left and Right
+
+            if (nums[Mid] == target) return Mid; // If value at middle index is target, return Mid
+            else if (nums[Mid] < target) 
+                Left = Mid + 1; // If value at Mid is smaller than target, search in the right half
+            else 
+                Right = Mid - 1; // If value at Mid is larger than target, search in the left half
         }
-        return -1;
+
+        return -1; // If target is not found in the array, return -1
     }
 }
+
 
 
