@@ -10,6 +10,7 @@ Output: 3
 Explanation: 3 is the smallest index in arr[] where element (arr[3] = 10) is greater than or equal to 9
 *************************************************************************************************************/
 
+// BINARY SEARCH
 class Solution {
     int lowerBound(int[] arr, int target) {
         int L=0;
