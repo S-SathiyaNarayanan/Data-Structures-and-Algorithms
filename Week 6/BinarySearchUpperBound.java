@@ -1,7 +1,6 @@
 // BINARY SEARCH UPPER BOUND - Time Complexity O(log n), Space Complexity O(1)
 // Use Cases :-
-// Finds the Index of the first element greater than the target in a sorted list with duplicates
-// Finds the position where target can be inserted after all its duplicates to maintain sorted order
+// Finds the Index of the first element that is greater than the target in a sorted list with or without duplicates
 class Solution {
     public int upperBound(int[] arr, int target) {
         int L = 0;             // Left pointer is the index at the start of the array
