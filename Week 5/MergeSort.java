@@ -49,7 +49,7 @@ class Solution {
 
 
 // HybridMergeSort (Bottom-Up iterative with RUN=16)
-public class HybridMergeSort {
+public class Solution {
     private static final int RUN = 16;
     public static void sort(int[] arr) {
         if (arr == null || arr.length < 2) return;
