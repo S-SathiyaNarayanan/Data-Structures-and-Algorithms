@@ -11,7 +11,7 @@ Explanation: 3 is the smallest index in arr[] where element (arr[3] = 10) is gre
 *************************************************************************************************************/
 
 // BINARY SEARCH LOWER BOUND - Time Complexity O(log n) , Space Complexity O(1)
-// Goal : To find the Index of first occurrence of the target (or)(or insert pos)
+// Goal : Find the Index of first occurrence of the target (or)(or insert pos)
 //
 class Solution {
     int lowerBound(int[] arr, int target) {
