@@ -9,7 +9,7 @@ class Solution {
             int mid = L + (R - L) / 2;    // Efficient mid calculation to avoid integer overflow
             if (arr[mid] <= target) {     // If the value at mid is less than or equal to the target
                 L = mid + 1;              // search in the right half ( move left pointer )
-            } else {                      // If the value at mid is greater than target
+            } else {                      // If the value at mid is greater than target "if (arr[mid] > target)"
                 R = mid;                  // move the right pointer
             }
         }
