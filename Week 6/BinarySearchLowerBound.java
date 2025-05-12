@@ -10,9 +10,10 @@ Output: 3
 Explanation: 3 is the smallest index in arr[] where element (arr[3] = 10) is greater than or equal to 9
 *************************************************************************************************************/
 
-// BINARY SEARCH LOWER BOUND - Time Complexity O(log n) , Space Complexity O(1)
-// Goal : Find the Index of first occurrence of the target (or)(or insert pos)
-//
+// BINARY SEARCH LOWER BOUND - Time Complexity O(log n) , Space Complexity O(1) 
+// Use Cases :-
+// Finds the Index of first occurrence of the target if it exists in a sorted list with duplicates
+// Finds the position where it can be Inserted if the target doesnt exist, while maintaining the sorted order 
 class Solution {
     int lowerBound(int[] arr, int target) {
         int L=0;
