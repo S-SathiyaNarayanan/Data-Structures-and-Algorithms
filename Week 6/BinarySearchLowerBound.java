@@ -34,7 +34,6 @@ class Solution {
     public int lowerBound(int[] arr, int target) {
         int L = 0;             // Left pointer is the index at the start of the array
         int R = arr.length;    // Right pointer is set to one past the last index (because we're searching for a lower bound)
-        
         while (L < R) {                   // Repeat the process while L is less than R
             int mid = L + (R - L) / 2;    // Efficient mid calculation to avoid integer overflow
             if (arr[mid] < target) {      // If the value at mid is smaller than the target
