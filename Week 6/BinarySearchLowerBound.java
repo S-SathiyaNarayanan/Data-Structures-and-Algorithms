@@ -9,3 +9,20 @@ Input:  arr[] = [2, 3, 7, 10, 11, 11, 25], target = 9
 Output: 3
 Explanation: 3 is the smallest index in arr[] where element (arr[3] = 10) is greater than or equal to 9
 *************************************************************************************************************/
+
+class Solution {
+    int lowerBound(int[] arr, int target) {
+        // code here
+        int L=0;
+        int R=arr.length;
+        while(L<R){
+            int mid=L+(R-L)/2;
+            if(arr[mid]<target){
+                L=mid+1;
+            }else{
+                R=mid;
+            }
+        }
+        return L;
+    }
+}
