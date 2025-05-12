@@ -12,7 +12,6 @@ Explanation: 3 is the smallest index in arr[] where element (arr[3] = 10) is gre
 
 class Solution {
     int lowerBound(int[] arr, int target) {
-        // code here
         int L=0;
         int R=arr.length;
         while(L<R){
