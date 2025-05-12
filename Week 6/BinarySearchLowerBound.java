@@ -15,22 +15,6 @@ Explanation: 3 is the smallest index in arr[] where element (arr[3] = 10) is gre
 // Finds the Index of first occurrence of the target if it exists in a sorted list with duplicates
 // Finds the position where it can be Inserted if the target doesnt exist, while maintaining the sorted order 
 class Solution {
-    int lowerBound(int[] arr, int target) {
-        int L=0;
-        int R=arr.length;
-        while(L<R){
-            int mid=L+(R-L)/2;
-            if(arr[mid]<target){
-                L=mid+1;
-            }else{
-                R=mid;
-            }
-        }
-        return L;
-    }
-}
-
-class Solution {
     public int lowerBound(int[] arr, int target) {
         int L = 0;             // Left pointer is the index at the start of the array
         int R = arr.length;    // Right pointer is set to one past the last index (because we're searching for a lower bound)
