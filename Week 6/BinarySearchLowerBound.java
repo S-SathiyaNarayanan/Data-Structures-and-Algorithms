@@ -12,7 +12,7 @@ Explanation: 3 is the smallest index in arr[] where element (arr[3] = 10) is gre
 
 // BINARY SEARCH LOWER BOUND - Time Complexity O(log n) , Space Complexity O(1) 
 // Use Cases :-
-// Finds the Index of first occurrence of the target if it exists in a sorted list with duplicates
+// Finds the Index of first occurrence of the target if it exists in a sorted array with duplicates
 // Finds the position where it can be Inserted if the target doesnt exist, while maintaining the sorted order 
 class Solution {
     public int lowerBound(int[] arr, int target) {
