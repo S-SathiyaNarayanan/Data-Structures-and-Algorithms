@@ -51,17 +51,14 @@ class Solution {
 // HybridMergeSort (Bottom-Up iterative with RUN=16)
 public class HybridMergeSort {
     private static final int RUN = 16;
-
     public static void sort(int[] arr) {
         if (arr == null || arr.length < 2) return;
         int n = arr.length;
         int[] tmp = new int[n];
-
         // Pre-sort small runs with insertion sort
         for (int start = 0; start < n; start += RUN) {
             insertionSort(arr, start, Math.min(start + RUN - 1, n - 1));
         }
-
         // Bottom-up merging
         for (int width = RUN; width < n; width <<= 1) {
             for (int left = 0; left < n; left += 2 * width) {
@@ -79,7 +76,6 @@ public class HybridMergeSort {
             System.arraycopy(tmp, 0, arr, 0, n);
         }
     }
-
     private static void insertionSort(int[] a, int l, int r) {
         for (int i = l + 1; i <= r; i++) {
             int key = a[i], j = i - 1;
@@ -89,7 +85,6 @@ public class HybridMergeSort {
             a[j + 1] = key;
         }
     }
-
     private static void merge(int[] a, int l, int mid, int r, int[] tmp) {
         int i = l, j = mid, k = l;
         while (i < mid && j < r) {
