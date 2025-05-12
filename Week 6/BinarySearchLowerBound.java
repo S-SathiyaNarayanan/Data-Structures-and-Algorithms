@@ -11,6 +11,8 @@ Explanation: 3 is the smallest index in arr[] where element (arr[3] = 10) is gre
 *************************************************************************************************************/
 
 // BINARY SEARCH LOWER BOUND
+// 
+//
 class Solution {
     int lowerBound(int[] arr, int target) {
         int L=0;
