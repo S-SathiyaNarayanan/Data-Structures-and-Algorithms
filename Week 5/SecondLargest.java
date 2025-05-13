@@ -20,7 +20,7 @@ class Solution {
             }
         }
 
-        return SL; // Return the second largest element
+        return SL;    // Return the second largest element
     }
 }
 
