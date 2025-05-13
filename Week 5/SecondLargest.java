@@ -13,10 +13,10 @@ class Solution {
         int SL = -1;        // Initialize the second largest (SL) with -1 (assuming all elements are non-negative)
         for (int i = 1; i < arr.length; i++) {
             if (arr[i] > FL) {
-                SL = FL;     // Update SL to previous FL if current element is greater than FL
-                FL = arr[i]; // Update FL to current element
+                SL = FL;        // Update SL to previous FL if current element is greater than FL
+                FL = arr[i];    // Update FL to current element
             } else if (arr[i] < FL && arr[i] > SL) {
-                SL = arr[i]; // Update SL if current element is less than FL but greater than current SL
+                SL = arr[i];    // Update SL if current element is less than FL but greater than current SL
             }
         }
 
