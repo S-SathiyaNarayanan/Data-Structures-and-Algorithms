@@ -25,7 +25,6 @@ class Solution {
                 SS = arr[i];    // Update SS if current element is not equal to FS and smaller than current SS
             }
         }
-
         if (SS == Integer.MAX_VALUE) return new int[]{-1};    // If SS was never updated, no second smallest exists
         return new int[]{FS, SS};                             // Return the smallest and second smallest elements
     }
