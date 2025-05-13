@@ -8,7 +8,7 @@ Output: 4
 Explanation: 9 exists in nums and its index is 4
 *************************************************************************************************************/
 
-// STANDARD BINARY SEARCH - Time Complexity O(log n) , Space Complexity O(1)
+// STANDARD BINARY SEARCH - Iterative Approach - Time Complexity O(log n) , Space Complexity O(1)
 // <<< Calculate mid index to prevent integer overflow >>>
 // First, it computes (right - left) this won’t overflow, because right is always >= left in a valid binary search
 // Then it divides by 2
