@@ -7,6 +7,12 @@ Output: 2 3
 Explanation: 2 and 3 are respectively the smallest and second smallest elements in the array.
 *************************************************************************************************************/
 
+// Works For :-
+// Arrays with positive numbers
+// Arrays with negative numbers
+// Arrays with duplicate values
+// Arrays where no second minimum exists
+// WARNING - You might want to handle arrays of size less than 2 case explicitly
 class Solution {
     public int[] minAnd2ndMin(int arr[]) {
         int FS=arr[0];
