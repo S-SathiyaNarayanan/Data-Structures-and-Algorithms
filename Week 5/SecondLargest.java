@@ -19,7 +19,6 @@ class Solution {
                 SL = arr[i];    // Update SL if current element is less than FL but greater than current SL
             }
         }
-
         return SL;    // Return the second largest element
     }
 }
