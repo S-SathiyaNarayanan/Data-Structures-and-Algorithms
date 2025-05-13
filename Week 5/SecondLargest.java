@@ -7,7 +7,11 @@ Output: 34
 Explanation: The largest element of the array is 35 and the second largest element is 34.
 *************************************************************************************************************/
 
-// Works For
+// Works For :-
+// Arrays with positive numbers
+// Arrays with negative numbers
+// Arrays with duplicate values
+// Arrays where no second largest exists
 class Solution {
     public int getSecondLargest(int[] arr) {
         int FL = arr[0];    // Initialize the first largest (FL) with the first element
