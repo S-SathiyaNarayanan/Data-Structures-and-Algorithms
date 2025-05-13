@@ -12,7 +12,7 @@ Explanation: The largest element of the array is 35 and the second largest eleme
 // Arrays with negative numbers
 // Arrays with duplicate values
 // Arrays where no second largest exists
-// WARNING - You might want to handle length 1 case explicitly
+// WARNING - You might want to handle arrays of size less than 2 case explicitly
 class Solution {
     public int getSecondLargest(int[] arr) {
         int FL = arr[0];               // Assume the first element is the largest initially 
