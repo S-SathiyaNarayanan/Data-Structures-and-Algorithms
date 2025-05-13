@@ -9,7 +9,6 @@ Explanation: The largest element of the array is 35 and the second largest eleme
 
 class Solution {
     public int getSecondLargest(int[] arr) {
-        // code here
         int FL=-1;
         int SL=-1;
         for(int i=0;i<arr.length;i++){
