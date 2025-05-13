@@ -14,8 +14,8 @@ Explanation: The largest element of the array is 35 and the second largest eleme
 // Arrays where no second largest exists
 class Solution {
     public int getSecondLargest(int[] arr) {
-        int FL = arr[0];    // Initialize the first largest (FL) with the first element
-        int SL = -1;        // Initialize the second largest (SL) with -1 (assuming all elements are non-negative)
+        int FL = arr[0];               // Initialize the first largest (FL) with the first element
+        int SL = Integer.MIN_VALUE;    // Initialize the second largest (SL) with -1 (assuming all elements are non-negative)
         for (int i = 1; i < arr.length; i++) {    // Start iterating from the second element (index 1)
             if (arr[i] > FL) {
                 SL = FL;        // Update SL to previous FL if current element is greater than FL
@@ -24,6 +24,7 @@ class Solution {
                 SL = arr[i];    // Update SL if current element is less than FL but greater than current SL
             }
         }
+        if(SL==Integer.MIN_VALUE) return -1;
         return SL;    // Return the second largest element
     }
 }
