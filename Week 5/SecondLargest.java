@@ -11,7 +11,7 @@ class Solution {
     public int getSecondLargest(int[] arr) {
         int FL = arr[0];    // Initialize the first largest (FL) with the first element
         int SL = -1;        // Initialize the second largest (SL) with -1 (assuming all elements are non-negative)
-        for (int i = 1; i < arr.length; i++) {
+        for (int i = 1; i < arr.length; i++) {    // Start iterating from the second element (index 1)
             if (arr[i] > FL) {
                 SL = FL;        // Update SL to previous FL if current element is greater than FL
                 FL = arr[i];    // Update FL to current element
