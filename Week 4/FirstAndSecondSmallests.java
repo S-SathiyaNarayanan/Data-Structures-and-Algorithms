@@ -21,7 +21,7 @@ class Solution {
             if (arr[i] < FS) {
                 SS = FS;        // Update SS to previous FS if current element is smaller than FS
                 FS = arr[i];    // Update FS to current element
-            } else if (arr[i] != FS && arr[i] < SS) {
+            } else if (arr[i] != FS && arr[i] < SS) {    // Used arr[i] != FS instead of arr[i] > FS to correctly handle duplicate minimums
                 SS = arr[i];    // Update SS if current element is not equal to FS and smaller than current SS
             }
         }
