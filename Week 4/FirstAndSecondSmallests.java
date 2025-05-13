@@ -9,7 +9,6 @@ Explanation: 2 and 3 are respectively the smallest and second smallest elements 
 
 class Solution {
     public int[] minAnd2ndMin(int arr[]) {
-        // code here
         int FS=arr[0];
         int SS=Integer.MAX_VALUE;
         for(int i=1;i<arr.length;i++){
