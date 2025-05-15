@@ -22,7 +22,7 @@ class Solution {
             if (arr[i] < FS) {    
                 SS = FS;        // Update SS to previous FS if current element is smaller than FS
                 FS = arr[i];    // Update FS to current element
-            } else if (arr[i] != FS && arr[i] < SS) {    // skip any duplicate of the minimum and then picks the next-smallest unique value
+            } else if (arr[i] != FS && arr[i] < SS) {    // Use arr[i] != FS to explicitly skip duplicates of FS as second smallest candidates
                 SS = arr[i];    // Update SS if current element is not equal to FS and smaller than current SS
             }
         }
@@ -46,7 +46,7 @@ class Solution {
             if (arr[i] < FS) {
                 SS = FS;        // Current FS becomes SS if we find a new smaller FS
                 FS = arr[i];    // Update FS to the new minimum
-            } else if (arr[i] > FS && arr[i] < SS) {    // take only values strictly greater than the current minimum as candidates for the new second smallest
+            } else if (arr[i] > FS && arr[i] < SS) {    // Use arr[i] > FS to explicitly admit only values larger than FS as candidates
                 SS = arr[i];    // Update SS when arr[i] is > FS and < current SS
             }
         }
