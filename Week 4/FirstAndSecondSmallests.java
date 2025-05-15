@@ -46,7 +46,7 @@ class Solution {
             if (arr[i] < FS) {
                 SS = FS;        // Current FS becomes SS if we find a new smaller FS
                 FS = arr[i];    // Update FS to the new minimum
-            } else if (arr[i] > FS && arr[i] < SS) {    // strictly take only larger values than the current minimum
+            } else if (arr[i] > FS && arr[i] < SS) {    // take only values strictly greater than the current minimum as candidates for the new second smallest
                 SS = arr[i];    // Update SS when arr[i] is > FS and < current SS
             }
         }
