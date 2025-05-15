@@ -9,7 +9,6 @@ Explanation: The third largest element in the array [2, 4, 1, 3, 5] is 3.
 
 class Solution {
     int thirdLargest(int arr[]) {
-        // Your code here
         if(arr.length<=2) return -1;
         int FL=Integer.MIN_VALUE;
         int SL=Integer.MIN_VALUE;
