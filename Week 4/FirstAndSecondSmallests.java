@@ -6,7 +6,7 @@ Input: arr[] = [2, 4, 3, 5, 6]
 Output: 2 3 
 Explanation: 2 and 3 are respectively the smallest and second smallest elements in the array.
 *************************************************************************************************************/
-Variant A (> FS) is crystal-clear about “take only strictly larger values than the current minimum.”
+
 // Solution 1 - one pass algorithm - arr[i] != FS
 // Works For :-
 // Arrays with positive numbers
@@ -46,7 +46,7 @@ class Solution {
             if (arr[i] < FS) {
                 SS = FS;        // Current FS becomes SS if we find a new smaller FS
                 FS = arr[i];    // Update FS to the new minimum
-            } else if (arr[i] > FS && arr[i] < SS) {    // take only strictly larger values than the current minimum
+            } else if (arr[i] > FS && arr[i] < SS) {    // strictly take only larger values than the current minimum
                 SS = arr[i];    // Update SS when arr[i] is > FS and < current SS
             }
         }
