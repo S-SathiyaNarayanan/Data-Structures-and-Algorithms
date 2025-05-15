@@ -20,7 +20,6 @@ class Solution {
                 SL = FL;
                 FL = arr[i];      // Update third and second largest before updating first largest
             }
-            
             else if (arr[i] > SL && arr[i] != FL) {    // If current element is not the largest but greater than second largest
                 // Update third largest before updating second largest
                 TL = SL;
