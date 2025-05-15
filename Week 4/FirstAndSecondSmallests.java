@@ -7,6 +7,7 @@ Output: 2 3
 Explanation: 2 and 3 are respectively the smallest and second smallest elements in the array.
 *************************************************************************************************************/
 
+// Solution 1 - arr[i] != FS
 // Works For :-
 // Arrays with positive numbers
 // Arrays with negative numbers
@@ -15,13 +16,13 @@ Explanation: 2 and 3 are respectively the smallest and second smallest elements 
 // WARNING - You might want to handle arrays of size less than 2 case explicitly
 class Solution {
     public int[] minAnd2ndMin(int arr[]) {
-        int FS = arr[0];               // Assume the first element is the smallest initially
-        int SS = Integer.MAX_VALUE;    // Initialize Second Smallest to the largest possible integer value
+        int FS = arr[0];               // Initialize first smallest (FS) to the first element of the array
+        int SS = Integer.MAX_VALUE;    // Initialize second smallest (SS) to the maximum integer value
         for (int i = 1; i < arr.length; i++) {    // Start iterating from the second element (index 1)
-            if (arr[i] < FS) {
+            if (arr[i] < FS) {    
                 SS = FS;        // Update SS to previous FS if current element is smaller than FS
                 FS = arr[i];    // Update FS to current element
-            } else if (arr[i] != FS && arr[i] < SS) {    // Used arr[i] != FS instead of arr[i] > FS to correctly handle duplicate minimums
+            } else if (arr[i] != FS && arr[i] < SS) {    // skip any duplicate of the minimum and then picks the next-smallest unique value
                 SS = arr[i];    // Update SS if current element is not equal to FS and smaller than current SS
             }
         }
