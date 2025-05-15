@@ -6,8 +6,8 @@ Input: arr[] = [2, 4, 3, 5, 6]
 Output: 2 3 
 Explanation: 2 and 3 are respectively the smallest and second smallest elements in the array.
 *************************************************************************************************************/
-
-// Solution 1 - arr[i] != FS
+Variant A (> FS) is crystal-clear about “take only strictly larger values than the current minimum.”
+// Solution 1 - one pass algorithm - arr[i] != FS
 // Works For :-
 // Arrays with positive numbers
 // Arrays with negative numbers
@@ -30,3 +30,5 @@ class Solution {
         return new int[]{FS, SS};                             // Return the smallest and second smallest elements
     }
 }
+
+
