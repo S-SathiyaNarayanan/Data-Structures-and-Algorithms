@@ -19,19 +19,16 @@ class Solution {
             if (arr[i] > FL) {    // If current element is greater than first largest
                 TL = SL;
                 SL = FL;
-                FL = arr[i];      // Update third and second largest before updating first largest
+                FL = arr[i];     // Update third and second largest before updating first largest
             }
             else if (arr[i] > SL && arr[i] != FL) {    // If current element is not the largest but greater than second largest
-                
                 TL = SL;
                 SL = arr[i];    // Update third largest before updating second largest
             }
-            
             else if (arr[i] > TL && arr[i] != SL && arr[i] != FL) {    // If current element is not among the top two but greater than third largest
                 TL = arr[i];    // Update third largest
             }
         }
-        
         return TL;    // Return third largest value found
     }
 }
