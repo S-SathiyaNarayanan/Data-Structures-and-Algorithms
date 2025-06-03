@@ -5,7 +5,7 @@ public class PrimitiveDataTypes {
         short myShortValue = 5000;    // 2-byte integer
         int myIntValue = 100000;    // 4-byte integer
         long myLongValue = 15000000000L;    // 8-byte integer 
-        float myFloatValue = 5.75f;
+        float myFloatValue = 5.75f;    // 4-byte floating point
         double myDoubleValue = 19.99;
         char myCharValue = 'A';    // 2-byte Unicode character
         boolean myBooleanValue = true;
