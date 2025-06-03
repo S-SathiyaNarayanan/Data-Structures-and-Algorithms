@@ -2,7 +2,7 @@ public class PrimitiveDataTypes {
     public static void main(String[] args) {
         // Declare and initialize primitive variables 
         byte myByteValue = 100;
-        short myShortValue = 5000;
+        short myShortValue = 5000;    // 2-byte integer
         int myIntValue = 100000;
         long myLongValue = 15000000000L;
         float myFloatValue = 5.75f;
