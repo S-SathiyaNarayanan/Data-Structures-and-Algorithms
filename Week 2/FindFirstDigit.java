@@ -14,3 +14,20 @@ public class FindFirstDigit {
         System.out.println("The last digit is " + LastDigit);
     }
 }
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the number: ");
+        int n=sc.nextInt();
+        int LD=n%10;
+        int FD=0;
+        while(n!=0){
+            FD=n;
+            n=n/10;
+        }
+        System.out.println("The first digit is "+FD);
+        System.out.println("The last digit is "+LD);
+    }
+}
