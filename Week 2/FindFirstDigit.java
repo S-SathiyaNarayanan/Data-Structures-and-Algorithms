@@ -1,3 +1,4 @@
+// Solution 1
 import java.util.Scanner;
 public class FindFirstDigit {
     public static void main(String[] args) {
@@ -15,6 +16,7 @@ public class FindFirstDigit {
     }
 }
 
+// Solution 2
 import java.util.Scanner;
 public class Main{
     public static void main(String args[]){
