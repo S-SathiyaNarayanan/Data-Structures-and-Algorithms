@@ -4,7 +4,7 @@ public class PrimitiveDataTypes {
         byte myByteValue = 100;    // 1-byte integer
         short myShortValue = 5000;    // 2-byte integer
         int myIntValue = 100000;    // 4-byte integer
-        long myLongValue = 15000000000L;
+        long myLongValue = 15000000000L;    // 8-byte integer 
         float myFloatValue = 5.75f;
         double myDoubleValue = 19.99;
         char myCharValue = 'A';
