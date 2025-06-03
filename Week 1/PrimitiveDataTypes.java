@@ -6,7 +6,7 @@ public class PrimitiveDataTypes {
         int myIntValue = 100000;    // 4-byte integer
         long myLongValue = 15000000000L;    // 8-byte integer 
         float myFloatValue = 5.75f;    // 4-byte floating point
-        double myDoubleValue = 19.99;
+        double myDoubleValue = 19.99;    // 8-byte floating point
         char myCharValue = 'A';    // 2-byte Unicode character
         boolean myBooleanValue = true;
         // "L" is required when the value exceeds the int range 
