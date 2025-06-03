@@ -1,13 +1,13 @@
 public class PrimitiveDataTypes {
     public static void main(String[] args) {
         // Declare and initialize primitive variables 
-        byte myByteValue = 100;    // 1-byte integer
-        short myShortValue = 5000;    // 2-byte integer
-        int myIntValue = 100000;    // 4-byte integer
+        byte myByteValue = 100;             // 1-byte integer
+        short myShortValue = 5000;          // 2-byte integer
+        int myIntValue = 100000;            // 4-byte integer
         long myLongValue = 15000000000L;    // 8-byte integer 
-        float myFloatValue = 5.75f;    // 4-byte floating point
-        double myDoubleValue = 19.99;    // 8-byte floating point
-        char myCharValue = 'A';    // 2-byte Unicode character
+        float myFloatValue = 5.75f;         // 4-byte floating point
+        double myDoubleValue = 19.99;       // 8-byte floating point
+        char myCharValue = 'A';             // 2-byte Unicode character
         boolean myBooleanValue = true;
         // "L" is required when the value exceeds the int range 
         // "d" is optional for double literals but can enhance code readability
