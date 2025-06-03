@@ -1,7 +1,7 @@
 /*************************************************************************************************************
-🪙GeeksforGeeks - Pattern Printing
-Given a number N. The task is to print a series of asterisk(*) from 1 till N terms with increasing order and 
-difference being 1.
+🪙GeeksforGeeks - Pattern 1
+Geek is very fond of patterns. Once, his teacher gave him a square pattern to solve. He gave Geek an integer n
+and asked him to build a pattern. 
 Input:
 N = 3
 Output:
