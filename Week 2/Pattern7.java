@@ -24,3 +24,5 @@ public class Pattern7 {
     }
 }
 
+// Solution 2
+
