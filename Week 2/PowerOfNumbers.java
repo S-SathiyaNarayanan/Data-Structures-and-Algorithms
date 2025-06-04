@@ -1,4 +1,6 @@
 // WARNING! - This code does not handle negative power values.
+
+// Solution 1
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -19,9 +21,7 @@ public class Main {
     }
 }
 
-
-
-
+// Solution 2
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
