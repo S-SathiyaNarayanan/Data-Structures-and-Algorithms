@@ -23,3 +23,22 @@ public class Main {
     }
 }
 
+
+
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in); 
+        System.out.print("Enter the value of Base: ");
+        int Base = sc.nextInt();
+        int n = Base;   
+        System.out.print("Enter the value of power: ");
+        int Power = sc.nextInt(); 
+        if (Power == 0) Base = 1;
+        for (int i = 1; i < Power; i++) {
+            Base = Base * n;
+        }  
+        System.out.println("Answer is " + Base);
+    }
+}
