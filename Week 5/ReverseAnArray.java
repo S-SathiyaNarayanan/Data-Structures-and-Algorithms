@@ -1,3 +1,11 @@
+/*************************************************************************************************************
+🪙GeeksforGeeks - Check if array is sorted
+Given an array arr[], check whether it is sorted in non-decreasing order. Return true if it is sorted otherwise
+false.
+Input: arr[] = [10, 20, 30, 40, 50]
+Output: true
+Explanation: The given array is sorted.
+*************************************************************************************************************/
 class Solution {
     public void reverseArray(int arr[]) {
         int i=0;
