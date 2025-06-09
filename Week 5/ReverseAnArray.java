@@ -1,5 +1,5 @@
 /*************************************************************************************************************
-🪙GeeksforGeeks - Check if array is sorted
+🪙GeeksforGeeks - Reverse an Array
 Given an array arr[], check whether it is sorted in non-decreasing order. Return true if it is sorted otherwise
 false.
 Input: arr[] = [10, 20, 30, 40, 50]
