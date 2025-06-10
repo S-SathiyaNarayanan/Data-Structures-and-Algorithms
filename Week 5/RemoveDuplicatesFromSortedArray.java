@@ -6,8 +6,8 @@ class Solution {
         for (int i = 1; i < arr.length; i++) {
             if (arr[i] != arr[i - 1]) {    // Compare current element with previous element
                 // If current element is not equal to previous element, it's a unique element
-                arr[NI] = arr[i];    // Assign it to the NI position in the array
-                NI++;    // Increment NI to point to the next position for next unique element
+                arr[NI] = arr[i];          // Assign it to the NI position in the array
+                NI++;                      // Increment NI to point to the next position for next unique element
             }
             // If duplicate is found, skip it ( "NI" doesn't move, "i" increments automatically )
         }
