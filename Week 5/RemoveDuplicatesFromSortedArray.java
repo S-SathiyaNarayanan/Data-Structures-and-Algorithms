@@ -1,6 +1,6 @@
 class Solution {
     public int removeDuplicates(int[] arr) {
-        // Initialize the New Index (NI) to 1, since the first element is always unique
+        // Initialize NI (New Index) to 1 because the first element is always considered unique
         int NI = 1;
         // Start looping from the second element (index 1) to the end of the array
         for (int i = 1; i < arr.length; i++) {
