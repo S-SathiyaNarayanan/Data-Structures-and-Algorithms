@@ -7,10 +7,11 @@ class Solution {
             if (arr[i] != arr[i - 1]) {    // Compare current element with previous element
                 // If current element is not equal to previous element, it's a unique element
                 arr[NI] = arr[i];    // Assign it to the NI position in the array
-                NI++;
+                NI++;    // Increment NI to point to the next position for next unique element
             }
+            // If duplicate is found, skip it ( "NI" doesn't move, "i" increments automatically )
         }
-        return NI;
+        return NI;    // Return the count of unique elements ( The length of the updated array without duplicates )
     }
 }
 
