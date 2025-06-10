@@ -1,7 +1,9 @@
 /*************************************************************************************************************
 💎LeetCode 26 - Remove Duplicates from Sorted Array
 🪙GeeksforGeeks - Remove Duplicates Sorted Array
-You are given an array of integers arr[]. Your task is to reverse the given array.
+Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each 
+unique element appears only once. The relative order of the elements should be kept the same. Then return the 
+number of unique elements in nums.
 Input: arr = [1, 4, 3, 2, 6, 5]
 Output: [5, 6, 2, 3, 4, 1]
 Explanation: Modify the array in place.
