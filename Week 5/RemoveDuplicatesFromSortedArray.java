@@ -1,5 +1,5 @@
 /*************************************************************************************************************
-💎LeetCode 26 - Factorial Trailing Zeroes
+💎LeetCode 26 - Remove Duplicates from Sorted Array
 🪙GeeksforGeeks - Remove Duplicates Sorted Array
 You are given an array of integers arr[]. Your task is to reverse the given array.
 Input: arr = [1, 4, 3, 2, 6, 5]
