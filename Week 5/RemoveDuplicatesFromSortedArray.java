@@ -23,7 +23,7 @@ class Solution {
             }
             // If duplicate is found, skip it ( "NI" doesn't move, "i" increments automatically )
         }
-        return NI;    // Return the count of unique elements ( The length of the updated array without duplicates )
+        return NI;    // Return the The number of unique elements in the sorted array — not an index.
     }
 }
 
