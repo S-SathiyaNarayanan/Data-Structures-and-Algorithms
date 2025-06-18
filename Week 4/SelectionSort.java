@@ -8,6 +8,8 @@ Array becomes 1 3 4 9 7. Select 4. Array becomes 1 3 4 9 7. Select 7. Array beco
 becomes 1 3 4 7 9.
 *************************************************************************************************************/
 
+// Time Complexity O(n^2)
+// Space Complexity O(1)
 class Solution {
     void selectionSort(int[] arr) {
         int n = arr.length;  // Get the size of the array
