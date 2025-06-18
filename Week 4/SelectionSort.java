@@ -15,7 +15,7 @@ class Solution {
         for (int i = 0; i < n - 1; i++) {
             // Assume the current index has the smallest element
             int MI = i;
-            // Look through the remaining unsorted elements
+            // Loop through the remaining unsorted part to find the actual smallest element
             for (int j = i + 1; j < n; j++) {
                 // If a smaller element is found, update the minimum index
                 if (arr[j] < arr[MI]) {
