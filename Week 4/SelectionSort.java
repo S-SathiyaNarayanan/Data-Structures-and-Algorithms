@@ -10,7 +10,6 @@ becomes 1 3 4 7 9.
 
 class Solution {
     void selectionSort(int[] arr) {
-        // code here
         int n=arr.length;
         for(int i=0;i<n-1;i++){
             int MI=i;
