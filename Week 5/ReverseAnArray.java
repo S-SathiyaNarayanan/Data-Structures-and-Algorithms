@@ -5,6 +5,8 @@ Input: arr = [1, 4, 3, 2, 6, 5]
 Output: [5, 6, 2, 3, 4, 1]
 Explanation: Modify the array in place.
 *************************************************************************************************************/
+
+// Solution 1
 class Solution {
     public void reverseArray(int arr[]) {
         int i=0;
