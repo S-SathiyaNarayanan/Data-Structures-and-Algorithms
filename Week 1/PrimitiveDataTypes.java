@@ -14,6 +14,7 @@ public class PrimitiveDataTypes {
         // "L" is required when the value exceeds the int range 
         // "d" is optional for double literals but can enhance code readability
         // Always use "f" for float to avoid implicit double conversion errors
+        // Java uses Unicode by default, not ASCII
 
         // Print all primitive values
         System.out.println("Byte value: " + myByteValue);
