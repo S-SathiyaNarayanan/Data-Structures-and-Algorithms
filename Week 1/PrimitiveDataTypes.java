@@ -14,7 +14,7 @@ public class PrimitiveDataTypes {
         // "L" is required when the value exceeds the int range 
         // "d" is optional for double literals but can enhance code readability
         // Always use "f" for float to avoid implicit double conversion errors
-        // Java uses Unicode (UTF-16 encoding internally) by default, not ASCII
+        // In Java "char" uses Unicode (UTF-16 encoding) by default, not ASCII
         // ASCII is actually a subset of Unicode, So ASCII characters still work.
 
         // Print all primitive values
