@@ -9,7 +9,7 @@ public class PrimitiveDataTypes {
         float myFloatValue = 5.75f;         // 4-byte floating point
         double myDoubleValue = 19.99;       // 8-byte floating point
         char myCharValue = 'A';             // 2-byte Unicode character
-        boolean myBooleanValue = true;
+        boolean myBooleanValue = true;      // Java does not define a fixed size for boolean
         
         // "L" is required when the value exceeds the int range 
         // "d" is optional for double literals but can enhance code readability
